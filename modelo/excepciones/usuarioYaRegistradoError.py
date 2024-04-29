@@ -1,0 +1,2 @@
+class UsuarioYaRegistradoError(Exception):
+    pass

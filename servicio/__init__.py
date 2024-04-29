@@ -1,0 +1,4 @@
+from estadisticas_servicio import EstadisticasServicio
+from media_servicio import MediaServicio
+from recomendaciones_servicio import RecomendacionesServicio
+from usuario_servicio import UsuarioServicio
