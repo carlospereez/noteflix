@@ -1,6 +1,6 @@
 from typing import List
 
-from modelo import Pelicula, Serie
+from modelo import Pelicula, Serie, Media, Usuario
 class MediaServicio:
     @classmethod
     def obtener_listado_peliculas(cls) -> List[Pelicula]:
@@ -8,4 +8,8 @@ class MediaServicio:
 
     @classmethod
     def obtener_listado_series(cls) -> List[Serie]:
+        ...
+
+    @classmethod
+    def visualizar_media(cls, usuario: Usuario, media: Media):
         ...

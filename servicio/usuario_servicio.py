@@ -8,3 +8,7 @@ class UsuarioServicio:
     def ver_media(cls, usuario: Usuario, media: Media) -> None:
         ...
 
+    @classmethod
+    def comprobar_usuario(cls, correo_electronico: str) -> Usuario:
+        ...
+
