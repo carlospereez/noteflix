@@ -88,7 +88,31 @@ class MenuOpciones:
 
     @classmethod
     def _simular_visualizacion(cls):
-        ...
+        """
+        Simula la visualización de una película o serie.
+
+        Este método inicia un procso hijo que simula la visualización de la película
+        o serie seleccionada. Muestra un mensaje de visualización cada segundo mientras el proceso hijo
+        está vivo. Una vez que el proceso hijo termina, actualiza el usuario logeado
+        con las actualizaciones realizadas.
+        """
+
+        proceso_hijo = Process(target=UsuarioServicio.visualizar_media, args=(
+            cls.usuario_logeado, media))  # Creamos un proceso hijo que va a lanzar la funcion de visualizar_media
+        proceso_hijo.start()  # Iniciamos el proceso hijo que simula la visualización de la pelicula
+
+        print(f"Visualizando {media.titulo}...", end="")
+        while proceso_hijo.is_alive(): # Mientras el proceso hijo esté vivo, mostramos un mensaje de visualización cada segundo
+            print(".", end="")
+            time.sleep(1)
+        proceso_hijo.join()  # Esperamos a que el proceso hijo termine de ejecutarse
+        print("\nVisualización finalizada")
+        print("Pulse ENTER para continuar...")
+        input()
+        cls.usuario_logeado = UsuarioServicio.obtener_usuario(
+            cls.usuario_logeado.correo_electronico)  # Actualizamos el usuario logeado con las actualizaciones realizadas
+
+        cls.mostrar_menu_opciones()
 
     @classmethod
     def _mostrar_estadisticas(cls):
