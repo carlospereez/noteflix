@@ -116,8 +116,40 @@ class MenuOpciones:
 
     @classmethod
     def _mostrar_estadisticas(cls):
-        ...
+        print("Generando gráfico de estadísticas del usuario " + cls.usuario_logeado.correo_electronico)
+        estadisticas_peliculas, estadisticas_series = EstadisticasServicio.obtener_estadisticas(cls.usuario_logeado)
+
+        print("---------------------")
+        print("Estadísticas de películas vistas: ")
+        print("---------------------")
+        print("Genero\tPeliculas vistas")
+        for estadistica in estadisticas_peliculas:
+            print(f'{estadistica}\t{estadisticas_peliculas[estadistica]}')
+
+        print("---------------------")
+        print("Estadísticas de series vistas: ")
+        print("---------------------")
+        print("Genero\tSeries vistas")
+        for estadistica in estadisticas_series:
+            print(f'{estadistica}\t{estadisticas_series[estadistica]}')
 
     @classmethod
-    def _mostrar_recomendaciones(cls):
-        ...
+    def _mostrar_recomendaciones(cls): # HACER EN CSV ANTES DE ENVIARLO
+        print("Generando recomendaciones para el usuario " + cls.usuario_logeado.correo_electronico)
+        peliculas_recomendadas, series_recomendadas = RecomendacionesServicio.obtener_recomendaciones(cls.usuario_logeado)
+
+        print("---------------------")
+        print("Peliculas Recomendadas: ")
+        print("---------------------")
+        print("ID\tTítulo\tDirector\tAño\tDuración\tGéneros")
+        [print(pelicula) for pelicula in peliculas_recomendadas]
+
+        print("---------------------------")
+        print("Series recomendadas:")
+        print("---------------------------")
+        print("ID\tTítulo\tDirector\tAño\tTemporadas\tGéneros")
+        [print(serie) for serie in series_recomendadas]
+
+        print("Pulse ENTER para continuar...")
+        input()
+        cls.mostrar_menu_opciones()
