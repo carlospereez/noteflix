@@ -49,13 +49,42 @@ class MenuOpciones:
             cls.mostrar_menu_opciones()
 
 
-    @classmethod
+    @classmethod  #CAMBIAR Y HACERLO EN CSV ANTES DE LA ENTREGA
     def _mostrar_catalogo(cls):
-        ...
+        print("---------------------------")
+        print("Peliculas:")
+        print("---------------------------")
+        print("ID\tTítulo\tDirector\tAño\tDuración\tGéneros")
+        [print(pelicula) for pelicula in MediaServicio.obtener_listado_peliculas()]
+        print("---------------------------")
+        print("Series:")
+        print("---------------------------")
+        print("ID\tTítulo\tDirector\tAño\tTemporadas\tGéneros")
+        [print(serie) for serie in MediaServicio.obtener_listado_series()]
+        print("---------------------------")
+        print("Pulse ENTER para continuar...")
+        input()
+        cls.mostrar_menu_opciones()
 
     @classmethod
-    def _mostrar_visualizar_media(cls):
-        ...
+    def _mostrar_visualizar_media(cls, tipo_media: str):
+        if tipo_media == "PELICULA":
+            id_media = input("Introduzca el id de la película a visualizar")
+        elif tipo_media == "SERIE":
+            id_media = input("Introduzca el id de la serie a visualizar")
+        else:
+            # Si la funcion no recibe un tipo de media válido, se muestra un mensaje de error, gestionado por una excepción
+            raise Exception("Tipo de media no válido")
+
+        media = MediaServicio.obtener_pelicula_por_id(
+            id_media) if tipo_media == "PELICULA" else MediaServicio.obtener_serie_por_id(id_media)
+        print("Se va a visualizar: " + media.titulo)
+        respuesta = input("Es correcto? (s/n):")
+        if respuesta == "s":
+            cls._simular_visualizacion(media)
+        else:
+            print("Volviendo al menú de opciones...")
+            cls.mostrar_menu_opciones()
 
     @classmethod
     def _simular_visualizacion(cls):
