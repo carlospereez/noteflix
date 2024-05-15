@@ -19,7 +19,35 @@ class MenuOpciones:
 
     @classmethod
     def mostrar_menu_opciones(cls):
-        ...
+        print("---------------------")
+        print("MENU DE OPCIONES")
+        print("---------------------")
+        print("1. Ver catálogo")
+        print("2. Visualizar película")
+        print("3. Visualizar serie")
+        print("4. Obtener recomendaciones")
+        print("5. Mostrar estadísticas")
+        print("6. Volver al menú de acceso")
+        print("---------------------")
+        respuesta = input("Introduzca una opción: ")
+        if respuesta == "1":
+            cls._mostrar_catalogo()
+        if respuesta == "2":
+            cls._mostrar_visualizar_media("PELICULA")
+        if respuesta == "3":
+            cls._mostrar_visualizar_media("SERIE")
+        if respuesta == "4":
+            cls._mostrar_recomendaciones()
+        if respuesta == "5":
+            cls._mostrar_estadisticas()
+        if respuesta == "6":
+            print("Volviendo al menú de acceso...")
+            cls.usuario_logeado = None
+            MenuAcceso.mostrar_menu_acceso()
+        else:
+            print("Opción inválida")
+            cls.mostrar_menu_opciones()
+
 
     @classmethod
     def _mostrar_catalogo(cls):
@@ -30,7 +58,7 @@ class MenuOpciones:
         ...
 
     @classmethod
-    def _simular_visualización(cls):
+    def _simular_visualizacion(cls):
         ...
 
     @classmethod
