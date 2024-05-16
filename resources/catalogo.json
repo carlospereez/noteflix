@@ -1,0 +1,604 @@
+{
+  "films": [
+    {
+        "id": "00001",
+        "name": "Matrix",
+        "duration": "120",
+        "tags": ["Sci-fi", "Action", "Computers", "Guns"]
+    },
+    {
+        "id": "00002",
+        "name": "Lord Of The Rings",
+        "duration": "240",
+        "tags": ["Fantasy", "Bloody", "Magic"]
+    },
+    {
+        "id": "00003",
+        "name": "Inception",
+        "duration": "148",
+        "tags": ["Sci-fi", "Action", "Dreams"]
+    },
+    {
+        "id": "00004",
+        "name": "The Shawshank Redemption",
+        "duration": "142",
+        "tags": ["Drama", "Crime", "Inspirational"]
+    },
+    {
+        "id": "00005",
+        "name": "Pulp Fiction",
+        "duration": "154",
+        "tags": ["Crime", "Dark Comedy", "Violence"]
+    },
+    {
+        "id": "00006",
+        "name": "The Dark Knight",
+        "duration": "152",
+        "tags": ["Action", "Crime", "Superhero"]
+    },
+    {
+        "id": "00007",
+        "name": "Forrest Gump",
+        "duration": "142",
+        "tags": ["Drama", "Comedy", "Romance"]
+    },
+    {
+        "id": "00008",
+        "name": "Fight Club",
+        "duration": "139",
+        "tags": ["Drama", "Psychological", "Violence"]
+    },
+    {
+        "id": "00009",
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "duration": "178",
+        "tags": ["Fantasy", "Adventure", "Epic"]
+    },
+    {
+        "id": "00010",
+        "name": "The Lord of the Rings: The Two Towers",
+        "duration": "179",
+        "tags": ["Fantasy", "Adventure", "Epic"]
+    },
+    {
+        "id": "00011",
+        "name": "The Lord of the Rings: The Return of the King",
+        "duration": "201",
+        "tags": ["Fantasy", "Adventure", "Epic"]
+    },
+    {
+        "id": "00012",
+        "name": "Interstellar",
+        "duration": "169",
+        "tags": ["Sci-fi", "Adventure", "Space"]
+    },
+    {
+        "id": "00013",
+        "name": "The Matrix Reloaded",
+        "duration": "138",
+        "tags": ["Sci-fi", "Action", "Sequel"]
+    },
+    {
+        "id": "00014",
+        "name": "The Matrix Revolutions",
+        "duration": "129",
+        "tags": ["Sci-fi", "Action", "Sequel"]
+    },
+    {
+        "id": "00015",
+        "name": "The Godfather",
+        "duration": "175",
+        "tags": ["Crime", "Drama", "Mafia"]
+    },
+    {
+        "id": "00016",
+        "name": "The Godfather: Part II",
+        "duration": "202",
+        "tags": ["Crime", "Drama", "Mafia"]
+    },
+    {
+        "id": "00017",
+        "name": "The Godfather: Part III",
+        "duration": "162",
+        "tags": ["Crime", "Drama", "Mafia"]
+    },
+    {
+        "id": "00018",
+        "name": "The Silence of the Lambs",
+        "duration": "118",
+        "tags": ["Thriller", "Horror", "Psychological"]
+    },
+    {
+        "id": "00019",
+        "name": "The Lord of the Rings",
+        "duration": "132",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00020",
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "duration": "228",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00021",
+        "name": "The Lord of the Rings: The Two Towers",
+        "duration": "228",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00022",
+        "name": "The Lord of the Rings: The Return of the King",
+        "duration": "238",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00023",
+        "name": "The Lion King",
+        "duration": "88",
+        "tags": ["Animated", "Adventure", "Drama"]
+    },
+    {
+        "id": "00024",
+        "name": "Toy Story",
+        "duration": "81",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00025",
+        "name": "Finding Nemo",
+        "duration": "100",
+        "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+        "id": "00026",
+        "name": "The Incredibles",
+        "duration": "115",
+        "tags": ["Animated", "Action", "Superhero"]
+    },
+    {
+        "id": "00027",
+        "name": "Monsters, Inc.",
+        "duration": "92",
+        "tags": ["Animated", "Comedy", "Family"]
+    },
+    {
+        "id": "00028",
+        "name": "Shrek",
+        "duration": "90",
+        "tags": ["Animated", "Comedy", "Fantasy"]
+    },
+    {
+        "id": "00029",
+        "name": "Shrek 2",
+        "duration": "93",
+        "tags": ["Animated", "Comedy", "Fantasy"]
+    },
+    {
+        "id": "00030",
+        "name": "Frozen",
+        "duration": "102",
+        "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+        "id": "00031",
+        "name": "Moana",
+        "duration": "107",
+        "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+        "id": "00032",
+        "name": "Coco",
+        "duration": "105",
+        "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+        "id": "00033",
+        "name": "Zootopia",
+        "duration": "108",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00034",
+        "name": "The Little Mermaid",
+        "duration": "83",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00035",
+        "name": "Beauty and the Beast",
+        "duration": "84",
+        "tags": ["Animated", "Fantasy", "Romance"]
+    },
+    {
+        "id": "00036",
+        "name": "Aladdin",
+        "duration": "90",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00037",
+        "name": "Spider-Man: Into the Spider-Verse",
+        "duration": "117",
+        "tags": ["Animated", "Action", "Superhero"]
+    },
+    {
+        "id": "00038",
+        "name": "Kung Fu Panda",
+        "duration": "92",
+        "tags": ["Animated", "Action", "Comedy"]
+    },
+    {
+        "id": "00039",
+        "name": "How to Train Your Dragon",
+        "duration": "98",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00040",
+        "name": "Ratatouille",
+        "duration": "111",
+        "tags": ["Animated", "Comedy", "Family"]
+    },
+    {
+        "id": "00041",
+        "name": "Despicable Me",
+        "duration": "95",
+        "tags": ["Animated", "Comedy", "Family"]
+    },
+    {
+        "id": "00042",
+        "name": "Madagascar",
+        "duration": "86",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00043",
+        "name": "Cars",
+        "duration": "117",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00044",
+        "name": "Toy Story 2",
+        "duration": "92",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00045",
+        "name": "Ice Age",
+        "duration": "81",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00046",
+        "name": "Shrek the Third",
+        "duration": "93",
+        "tags": ["Animated", "Comedy", "Fantasy"]
+    },
+    {
+        "id": "00047",
+        "name": "Finding Dory",
+        "duration": "97",
+        "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+        "id": "00048",
+        "name": "Kung Fu Panda 2",
+        "duration": "90",
+        "tags": ["Animated", "Action", "Comedy"]
+    },
+    {
+        "id": "00049",
+        "name": "The Simpsons Movie",
+        "duration": "87",
+        "tags": ["Animated", "Comedy"]
+    },
+    {
+        "id": "00050",
+        "name": "Big Hero 6",
+        "duration": "102",
+        "tags": ["Animated", "Action", "Adventure"]
+    },
+    {
+        "id": "00051",
+        "name": "Tangled",
+        "duration": "100",
+        "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+        "id": "00052",
+        "name": "How to Train Your Dragon 2",
+        "duration": "102",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00053",
+        "name": "Up",
+        "duration": "96",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00054",
+        "name": "WALL-E",
+        "duration": "98",
+        "tags": ["Animated", "Sci-fi", "Adventure"]
+    },
+    {
+        "id": "00055",
+        "name": "The Polar Express",
+        "duration": "100",
+        "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+        "id": "00056",
+        "name": "Brave",
+        "duration": "93",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00057",
+        "name": "Monster House",
+        "duration": "91",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00058",
+        "name": "Madagascar: Escape 2 Africa",
+        "duration": "89",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00059",
+        "name": "The Croods",
+        "duration": "98",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00060",
+        "name": "Hotel Transylvania",
+        "duration": "91",
+        "tags": ["Animated", "Comedy", "Family"]
+    },
+    {
+        "id": "00061",
+        "name": "Rango",
+        "duration": "107",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00062",
+        "name": "Cloudy with a Chance of Meatballs",
+        "duration": "90",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00063",
+        "name": "Over the Hedge",
+        "duration": "83",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00064",
+        "name": "Flushed Away",
+        "duration": "85",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00065",
+        "name": "Fantastic Mr. Fox",
+        "duration": "87",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00066",
+        "name": "The Lego Movie",
+        "duration": "100",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00067",
+        "name": "The Adventures of Tintin",
+        "duration": "107",
+        "tags": ["Animated", "Adventure", "Mystery"]
+    },
+    {
+        "id": "00068",
+        "name": "Happy Feet",
+        "duration": "108",
+        "tags": ["Animated", "Comedy", "Family"]
+    },
+    {
+        "id": "00069",
+        "name": "Rio",
+        "duration": "96",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00070",
+        "name": "Ice Age: Dawn of the Dinosaurs",
+        "duration": "94",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00071",
+        "name": "Arthur Christmas",
+        "duration": "97",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00072",
+        "name": "Turbo",
+        "duration": "96",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00073",
+        "name": "Epic",
+        "duration": "102",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+        "id": "00074",
+        "name": "The Secret Life of Pets",
+        "duration": "87",
+        "tags": ["Animated", "Comedy", "Adventure"]
+    },
+    {
+        "id": "00075",
+        "name": "Sing",
+        "duration": "108",
+        "tags": ["Animated", "Comedy", "Music"]
+    },
+    {
+        "id": "00076",
+        "name": "Storks",
+        "duration": "87",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00077",
+        "name": "The Boss Baby",
+        "duration": "97",
+        "tags": ["Animated", "Comedy", "Family"]
+    },
+    {
+        "id": "00078",
+        "name": "Captain Underpants: The First Epic Movie",
+        "duration": "89",
+        "tags": ["Animated", "Comedy", "Superhero"]
+    },
+    {
+        "id": "00079",
+        "name": "Coraline",
+        "duration": "100",
+        "tags": ["Animated", "Fantasy", "Horror"]
+    },
+    {
+        "id": "00080",
+        "name": "Shaun the Sheep Movie",
+        "duration": "85",
+        "tags": ["Animated", "Comedy", "Adventure"]
+    },
+    {
+        "id": "00081",
+        "name": "The Lego Batman Movie",
+        "duration": "104",
+        "tags": ["Animated", "Action", "Comedy"]
+    },
+    {
+        "id": "00082",
+        "name": "The SpongeBob SquarePants Movie",
+        "duration": "87",
+        "tags": ["Animated", "Comedy", "Adventure"]
+    },
+    {
+        "id": "00083",
+        "name": "Mr. Peabody & Sherman",
+        "duration": "92",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00084",
+        "name": "Wreck-It Ralph",
+        "duration": "101",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00085",
+        "name": "The Emoji Movie",
+        "duration": "86",
+        "tags": ["Animated", "Comedy", "Adventure"]
+    },
+    {
+        "id": "00086",
+        "name": "Inside Out",
+        "duration": "95",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00087",
+        "name": "Sausage Party",
+        "duration": "89",
+        "tags": ["Animated", "Comedy"]
+    },
+    {
+        "id": "00088",
+        "name": "The Angry Birds Movie",
+        "duration": "97",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00089",
+        "name": "The Nut Job",
+        "duration": "85",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00090",
+        "name": "The Lego Ninjago Movie",
+        "duration": "101",
+        "tags": ["Animated", "Action", "Comedy"]
+    },
+    {
+        "id": "00091",
+        "name": "Ferdinand",
+        "duration": "108",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00092",
+        "name": "Hotel Transylvania 2",
+        "duration": "89",
+        "tags": ["Animated", "Comedy", "Family"]
+    },
+    {
+        "id": "00093",
+        "name": "Penguins of Madagascar",
+        "duration": "92",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00094",
+        "name": "The Lego Movie 2: The Second Part",
+        "duration": "107",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00095",
+        "name": "Trolls",
+        "duration": "92",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00096",
+        "name": "Minions",
+        "duration": "91",
+        "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00097",
+        "name": "Sing 2",
+        "duration": "110",
+        "tags": ["Animated", "Comedy", "Music"]
+    },
+    {
+        "id": "00098",
+        "name": "Raya and the Last Dragon",
+        "duration": "107",
+        "tags": ["Animated", "Adventure", "Fantasy"]
+    },
+    {
+      "id": "00099",
+      "name": "Luca",
+      "duration": "95",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+        "id": "00100",
+        "name": "Encanto",
+        "duration": "102",
+        "tags": ["Animated", "Adventure", "Family"]
+    }
+  ]
+}
