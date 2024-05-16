@@ -600,5 +600,607 @@
         "duration": "102",
         "tags": ["Animated", "Adventure", "Family"]
     }
+  ],
+  "series":[
+    {
+      "id": "00001",
+      "name": "The Simpsons",
+      "seasons": [34, 12, 43, 12],
+      "tags": ["Animation", "Comedy"]
+    },
+    {
+      "id": "00002",
+      "name": "South Park",
+      "seasons": [25, 10, 10, 14],
+      "tags": ["Animation", "Comedy", "Satire"]
+    },
+    {
+      "id": "00003",
+      "name": "Family Guy",
+      "seasons": [21, 18, 20, 16],
+      "tags": ["Animation", "Comedy", "Adult Swim"]
+    },
+    {
+      "id": "00004",
+      "name": "Rick and Morty",
+      "seasons": [5, 10, 9, 10],
+      "tags": ["Animation", "Sci-Fi", "Comedy"]
+    },
+    {
+      "id": "00005",
+      "name": "Bob's Burgers",
+      "seasons": [13, 22, 22, 22],
+      "tags": ["Animation", "Comedy", "Sitcom"]
+    },
+    {
+      "id": "00006",
+      "name": "American Dad!",
+      "seasons": [17, 19, 15, 19],
+      "tags": ["Animation", "Comedy", "Sci-Fi"]
+    },
+    {
+      "id": "00007",
+      "name": "Futurama",
+      "seasons": [7, 7, 26, 12, 1, 12],
+      "tags": ["Animation", "Sci-Fi", "Comedy"]
+    },
+    {
+      "id": "00008",
+      "name": "King of the Hill",
+      "seasons": [13, 13, 13, 13, 13, 2],
+      "tags": ["Animation", "Comedy", "Sitcom"]
+    },
+    {
+      "id": "00009",
+      "name": "The Ren & Stimpy Show",
+      "seasons": [5, 5, 1],
+      "tags": ["Animation", "Comedy", "Adult Swim"]
+    },
+    {
+      "id": "00010",
+      "name": "Beavis and Butt-Head",
+      "seasons": [8, 8, 2, 1],
+      "tags": ["Animation", "Comedy", "Adult Swim"]
+    },
+    {
+      "id": "00011",
+      "name": "SpongeBob SquarePants",
+      "seasons": [13, 22, 22, 22],
+      "tags": ["Animation", "Comedy", "Kids"]
+    },
+    {
+      "id": "00012",
+      "name": "Adventure Time",
+      "seasons": [10, 10, 12, 8, 2],
+      "tags": ["Animation", "Comedy", "Fantasy"]
+    },
+    {
+      "id": "00013",
+      "name": "Regular Show",
+      "seasons": [8, 8, 8, 1],
+      "tags": ["Animation", "Comedy", "Surreal"]
+    },
+    {
+      "id": "00014",
+      "name": "The Amazing World of Gumball",
+      "seasons": [6, 6, 6, 1],
+      "tags": ["Animation", "Comedy", "Kids"]
+    },
+    {
+      "id": "00015",
+      "name": "Steven Universe",
+      "seasons": [5, 5, 5, 8],
+      "tags": ["Animation", "Comedy", "Fantasy"]
+    },
+    {
+      "id": "00016",
+      "name": "Gravity Falls",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Mystery", "Comedy"]
+    },
+    {
+      "id": "00017",
+      "name": "Star vs. the Forces of Evil",
+      "seasons": [4, 4, 2],
+      "tags": ["Animation", "Comedy", "Fantasy"]
+    },
+    {
+      "id": "00018",
+      "name": "The Owl House",
+      "seasons": [2, 2, 3],
+      "tags": ["Animation", "Adventure", "Fantasy"]
+    },
+    {
+      "id": "00019",
+      "name": "Amphibia",
+      "seasons": [3, 3, 1],
+      "tags": ["Animation", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00020",
+      "name": "The Powerpuff Girls",
+      "seasons": [6, 7, 1],
+      "tags": ["Animation", "Action", "Comedy"]
+    },
+    {
+      "id": "00021",
+      "name": "Dexter's Laboratory",
+      "seasons": [4, 2, 1],
+      "tags": ["Animation", "Comedy", "Sci-Fi"]
+    },
+    {
+      "id": "00022",
+      "name": "Johnny Bravo",
+      "seasons": [4, 4, 1],
+      "tags": ["Animation", "Comedy", "Parody"]
+    },
+    {
+      "id": "00023",
+      "name": "Ed, Edd & Eddy",
+      "seasons": [6, 2, 1],
+      "tags": ["Animation", "Comedy", "Slice of Life"]
+    },
+    {
+      "id": "00024",
+      "name": "The Grim Adventures of Billy and Mandy",
+      "seasons": [8, 6, 2],
+      "tags": ["Animation", "Comedy", "Black Comedy"]
+    },
+    {
+      "id": "00025",
+      "name": "Courage the Cowardly Dog",
+      "seasons": [4, 4, 2],
+      "tags": ["Animation", "Comedy", "Horror"]
+    },
+    {
+      "id": "00026",
+      "name": "Samurai Jack",
+      "seasons": [5, 1],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00027",
+      "name": "Avatar: The Last Airbender",
+      "seasons": [3, 3],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00028",
+      "name": "The Legend of Korra",
+      "seasons": [4, 4, 2],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00029",
+      "name": "Voltron: Legendary Defender",
+      "seasons": [8, 8],
+      "tags": ["Animation", "Action", "Sci-Fi"]
+    },
+    {
+      "id": "00030",
+      "name": "She-Ra and the Princesses of Power",
+      "seasons": [5, 5],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00031",
+      "name": "Kipo and the Age of Wonderbeasts",
+      "seasons": [3, 2],
+      "tags": ["Animation", "Adventure", "Fantasy"]
+    },
+    {
+      "id": "00032",
+      "name": "The Dragon Prince",
+      "seasons": [3, 3],
+      "tags": ["Animation", "Action", "Fantasy"]
+    },
+    {
+      "id": "00033",
+      "name": "Castlevania",
+      "seasons": [4, 4],
+      "tags": ["Animation", "Action", "Horror"]
+    },
+    {
+      "id": "00034",
+      "name": "The Witcher: Nightmare of the Wolf",
+      "seasons": [1],
+      "tags": ["Animation", "Action", "Fantasy"]
+    },
+    {
+      "id": "00035",
+      "name": "Arcane",
+      "seasons": [1],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00036",
+      "name": "Invincible",
+      "seasons": [3],
+      "tags": ["Animation", "Action", "Superhero"]
+    },
+    {
+      "id": "00037",
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00038",
+      "name": "Jujutsu Kaisen",
+      "seasons": [1],
+      "tags": ["Animation", "Action", "Supernatural"]
+    },
+    {
+      "id": "00039",
+      "name": "Attack on Titan",
+      "seasons": [4, 2, 2],
+      "tags": ["Animation", "Action", "Dark Fantasy"]
+    },
+    {
+      "id": "00040",
+      "name": "My Hero Academia",
+      "seasons": [5, 6],
+      "tags": ["Animation", "Action", "Superhero"]
+    },
+    {
+      "id": "00041",
+      "name": "One Piece",
+      "seasons": [20],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00042",
+      "name": "Naruto",
+      "seasons": [7, 7, 2],
+      "tags": ["Animation", "Action", "Ninja"]
+    },
+    {
+      "id": "00043",
+      "name": "Naruto: Shippuden",
+      "seasons": [21],
+      "tags": ["Animation", "Action", "Ninja"]
+    },
+    {
+      "id": "00044",
+      "name": "Bleach",
+      "seasons": [16, 362],
+      "tags": ["Animation", "Action", "Supernatural"]
+    },
+    {
+      "id": "00045",
+      "name": "Dragon Ball Z",
+      "seasons": [9],
+      "tags": ["Animation", "Action", "Martial Arts"]
+    },
+    {
+      "id": "00046",
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "seasons": [5, 64],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00047",
+      "name": "Cowboy Bebop",
+      "seasons": [1, 26],
+      "tags": ["Animation", "Sci-Fi", "Space Western"]
+    },
+    {
+      "id": "00048",
+      "name": "Neon Genesis Evangelion",
+      "seasons": [1, 26],
+      "tags": ["Animation", "Mecha", "Psychological"]
+    },
+    {
+      "id": "00049",
+      "name": "Your Name",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Romance", "Fantasy"]
+    },
+    {
+      "id": "00050",
+      "name": "Spirited Away",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Fantasy", "Coming-of-age"]
+    },
+    {
+      "id": "00051",
+      "name": "Princess Mononoke",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "War"]
+    },
+    {
+      "id": "00052",
+      "name": "Howl's Moving Castle",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00053",
+      "name": "Kiki's Delivery Service",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Slice of Life"]
+    },
+    {
+      "id": "00054",
+      "name": "Ponyo",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00055",
+      "name": "The Wind Rises",
+      "seasons": [1],
+      "tags": ["Animation", "Historical Fiction", "Drama"]
+    },
+    {
+      "id": "00056",
+      "name": "Weathering with You",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Romance"]
+    },
+    {
+      "id": "00057",
+      "name": "Violet Evergarden",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Drama", "Fantasy"]
+    },
+    {
+      "id": "00058",
+      "name": "A Silent Voice",
+      "seasons": [1],
+      "tags": ["Animation", "Drama", "Romance"]
+    },
+    {
+      "id": "00059",
+      "name": "Your Lie in April",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Drama", "Music"]
+    },
+    {
+      "id": "00060",
+      "name": "Anohana: The Flower We Saw That Day",
+      "seasons": [1],
+      "tags": ["Animation", "Drama", "Friendship"]
+    },
+    {
+      "id": "00061",
+      "name": "Clannad: After Story",
+      "seasons": [1],
+      "tags": ["Animation", "Drama", "Romance"]
+    },
+    {
+      "id": "00062",
+      "name": "Madoka Magica",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Drama", "Fantasy"]
+    },
+    {
+      "id": "00063",
+      "name": "Fullmetal Alchemist",
+      "seasons": [51],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00064",
+      "name": "Hunter x Hunter",
+      "seasons": [6, 136],
+      "tags": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": "00065",
+      "name": "Yu Yu Hakusho",
+      "seasons": [118],
+      "tags": ["Animation", "Action", "Supernatural"]
+    },
+    {
+      "id": "00066",
+      "name": "Rurouni Kenshin",
+      "seasons": [94],
+      "tags": ["Animation", "Action", "Historical Fiction"]
+    },
+    {
+      "id": "00067",
+      "name": "Dragon Ball",
+      "seasons": [153],
+      "tags": ["Animation", "Action", "Martial Arts"]
+    },
+    {
+      "id": "00068",
+      "name": "Neon Genesis Evangelion: The End of Evangelion",
+      "seasons": [1],
+      "tags": ["Animation", "Mecha", "Psychological"]
+    },
+    {
+      "id": "00069",
+      "name": "The Evangelion Movie Village",
+      "seasons": [1],
+      "tags": ["Animation", "Mecha", "Psychological"]
+    },
+    {
+      "id": "00070",
+      "name": "Evangelion: Death True",
+      "seasons": [1],
+      "tags": ["Animation", "Mecha", "Psychological"]
+    },
+    {
+      "id": "00071",
+      "name": "The Rebuild of Evangelion",
+      "seasons": [4],
+      "tags": ["Animation", "Mecha", "Psychological"]
+    },
+    {
+      "id": "00072",
+      "name": "Patlabor: The Movie",
+      "seasons": [1],
+      "tags": ["Animation", "Mecha", "Sci-Fi"]
+    },
+    {
+      "id": "00073",
+      "name": "Ghost in the Shell",
+      "seasons": [1],
+      "tags": ["Animation", "Sci-Fi", "Cyberpunk"]
+    },
+    {
+      "id": "00074",
+      "name": "Akira",
+      "seasons": [1],
+      "tags": ["Animation", "Sci-Fi", "Post-Apocalyptic"]
+    },
+    {
+      "id": "00075",
+      "name": "Paprika",
+      "seasons": [1],
+      "tags": ["Animation", "Psychological", "Sci-Fi"]
+    },
+    {
+      "id": "00076",
+      "name": "Perfect Blue",
+      "seasons": [1],
+      "tags": ["Animation", "Psychological", "Thriller"]
+    },
+    {
+      "id": "00077",
+      "name": "Millennium Actress",
+      "seasons": [1],
+      "tags": ["Animation", "Drama", "Fantasy"]
+    },
+    {
+      "id": "00078",
+      "name": "The Tale of Princess Kaguya",
+      "seasons": [1],
+      "tags": ["Animation", "Drama", "Fantasy"]
+    },
+    {
+      "id": "00079",
+      "name": "When Marnie Was There",
+      "seasons": [1],
+      "tags": ["Animation", "Drama", "Slice of Life"]
+    },
+    {
+      "id": "00080",
+      "name": "The Wind Rises",
+      "seasons": [1],
+      "tags": ["Animation", "Historical Fiction", "Drama"]
+    },
+    {
+      "id": "00081",
+      "name": "From Up on Poppy Hill",
+      "seasons": [1],
+      "tags": ["Animation", "Romance", "Slice of Life"]
+    },
+    {
+      "id": "00082",
+      "name": "The Secret World of Arrietty",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00083",
+      "name": "Ponyo",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00084",
+      "name": "Spirited Away",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Coming-of-age"]
+    },
+    {
+      "id": "00085",
+      "name": "Princess Mononoke",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "War"]
+    },
+    {
+      "id": "00086",
+      "name": "Nausicaä of the Valley of the Wind",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00087",
+      "name": "Laputa: Castle in the Sky",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00088",
+      "name": "Castle in the Sky",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00089",
+      "name": "Howl's Moving Castle",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00090",
+      "name": "Kiki's Delivery Service",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Slice of Life"]
+    },
+    {
+      "id": "00091",
+      "name": "My Neighbor Totoro",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Slice of Life"]
+    },
+    {
+      "id": "00092",
+      "name": "Pom Poko",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Environmentalism"]
+    },
+    {
+      "id": "00093",
+      "name": "Porco Rosso",
+      "seasons": [1],
+      "tags": ["Animation", "Adventure", "War"]
+    },
+    {
+      "id": "00094",
+      "name": "Whisper of the Heart",
+      "seasons": [1],
+      "tags": ["Animation", "Romance", "Coming-of-age"]
+    },
+    {
+      "id": "00095",
+      "name": "Only Yesterday",
+      "seasons": [1],
+      "tags": ["Animation", "Slice of Life", "Romance"]
+    },
+    {
+      "id": "00096",
+      "name": "Ocean Waves",
+      "seasons": [1],
+      "tags": ["Animation", "Romance", "Slice of Life"]
+    },
+    {
+      "id": "00097",
+      "name": "The Cat Returns",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00098",
+      "name": "Tales from Earthsea",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00099",
+      "name": "Arrietty",
+      "seasons": [1],
+      "tags": ["Animation", "Fantasy", "Adventure"]
+    },
+    {
+      "id": "00100",
+      "name": "From Up on Poppy Hill",
+      "seasons": [1],
+      "tags": ["Animation", "Romance", "Slice of Life"]
+    }
   ]
 }
