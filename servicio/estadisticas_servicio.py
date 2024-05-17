@@ -1,5 +1,6 @@
 from modelo import Usuario
 from typing import Tuple, Dict, List # Hacemos import de las más comunes porque luego las necesitaremos
+import pandas as pd
 class EstadisticasServicio:
     def obtener_estadisticas(cls, usuario: Usuario)-> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, int], Dict[str, int]]:
         # Diccionarios para almacenar los recuentos de géneros de películas y series
