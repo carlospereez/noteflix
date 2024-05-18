@@ -5,6 +5,24 @@ import matplotlib.pyplot as plt
 class EstadisticasServicio:
     @classmethod
     def obtener_estadisticas(cls, usuario: Usuario)-> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, int], Dict[str, int]]:
+        """
+        Obtiene las estadísticas de los géneros de las películas y series vistas por un usuario.
+
+        Este método recorre las películas y series vistas por el usuario, y para cada género en cada película o
+        serie, incrementa su recuento en los diccionarios correspondientes. Si un género no está presente
+        en el diccionario, se añade con un recuento inicial de 1.
+
+        Parametros:
+        usuario (Usuario): El usuario para quien obtener las estadísticas.
+
+        Returns:
+        Tuple[pd.DataFrame, pd.DataFrame, Dict[str, int], Dict[str, int]]: Una tupla que contiene dos DataFrames y
+        dos diccionarios. El primer diccionario contiene los recuentos de los géneros de las películas vistas por el
+        usuario, y el segundo diccionario contiene los recuentos de los géneros de las series vistas por el usuario.
+        Los DataFrames contienen lo mismo, la única diferencia es que son DataFrames y no diccionarios, pero son
+        para que la información se muestre más ordenada y con mejor aspecto. Los diccionarios son utiles para
+        otras funciones como obtener_grafico_estadisticas(usuario).
+        """
         # Diccionarios para almacenar los recuentos de géneros de películas y series
         generos_peliculas: Dict[str, int] = {}
         generos_series: Dict[str, int] = {}
@@ -55,7 +73,17 @@ class EstadisticasServicio:
         return generos_peliculas_df, generos_series_df, generos_peliculas, generos_series
     @classmethod
     def obtener_grafico_estadisticas(cls, usuario: Usuario):
+        """
+        Genera gráficos por sectores para visualizar las estadísticas de géneros de películas y series vistas por un
+        usuario. Para poder representar los datos en los gráficos, primero hace falta separarlos en dos listas, que
+        serán cuatro en realidad porque hay dos para películas y dos para series.
 
+        Parameters:
+        usuario (Usuario): El usuario para quien generar los gráficos.
+
+        Returns:
+        None
+        """
         # Obtiene las estadísticas de géneros de películas y series
         generos_peliculas_df, generos_series_df, generos_peliculas, generos_series = cls.obtener_estadisticas(usuario)
 
