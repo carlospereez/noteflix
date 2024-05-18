@@ -21,7 +21,11 @@ class UsuarioServicio:
     @classmethod
     def alta_usuario(cls, correo_electronico: str) -> None:
         """
-        ...
+        Crea un nuevo usuario con el correo electrónico dado.
+
+        Esta función valida el correo electrónico introducido utilizando una expresión regular.
+        Si el correo electrónico es válido, se crea un nuevo usuario.
+        Si este no es válido, se lanza una excepción.
         """
         # Verificamos con una regex que el correo sea válido
         # En caso de que no sea válido, lanzamos una excepción
@@ -41,7 +45,10 @@ class UsuarioServicio:
     @classmethod
     def visualizar_media(cls, usuario: Usuario, media: Media):
         """
-        ...
+        Esta función simula la visualización de una película o serie de un usuario.
+        Si se trata de una película, se añade a la lista de películas vistas del usuario y
+        si se trata de una serie, se añade a la lista de series.
+        Por último, se actualiza el usuario usando UsuarioRepositorio.actualiza_usuario(usuario)
         """
         time.sleep(10) #Simula que el usuario está viendo la peli/serie durante 10 segundos
         #funcion de la instancia de Media que hayamos recibido,
