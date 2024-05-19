@@ -15,11 +15,11 @@ class Usuario:
     """
 
     def __init__(self, correo_electronico: str, peliculas_vistas: List[Pelicula], series_vistas, List[Serie]):
-    """
-    Inicializa un objeto de la clase Usuario.
+        """
+        Inicializa un objeto de la clase Usuario.
 
-    Parámetros:
-    correo_electronico (str): El correo electrónico del usuario.
-    peliculas_vistas (list of Pelicula): La lista de películas que el usuario ha visto.
-    series_vistas (list of Serie): La lista de series que el usuario ha visto.
-    """
+        Parámetros:
+        correo_electronico (str): El correo electrónico del usuario.
+        peliculas_vistas (list of Pelicula): La lista de películas que el usuario ha visto.
+        series_vistas (list of Serie): La lista de series que el usuario ha visto.
+        """
