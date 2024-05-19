@@ -1,3 +1,7 @@
+from typing import List
+
+from modelo import Pelicula, Serie
+
 class Usuario:
     """
     Clase que representa a un usuario.
@@ -9,3 +13,4 @@ class Usuario:
     · peliculas-vistas (list of Pelicula) : La lista de películas que el usuario ha visualizado.
     · series-vistas (list of Series): La lista de series que el usuario ha visualizado.
     """
+
