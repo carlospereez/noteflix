@@ -14,3 +14,4 @@ class Usuario:
     · series-vistas (list of Series): La lista de series que el usuario ha visualizado.
     """
 
+    def __init__(self, correo_electronico: str, peliculas_vistas: List[Pelicula], series_vistas, List[Serie]):
