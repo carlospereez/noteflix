@@ -26,3 +26,12 @@ class Usuario:
         self.correo_electronico = correo_electronico
         self.peliculas_vistas = peliculas_vistas
         self.series_vistas = series_vistas
+
+    def __str__(self):
+        """
+        Devuelve una representación en cadena del usuario, tabulado para mostrarse en terminal.
+
+        Returns:
+        str: Una cadena que representa al usuario.
+        """
+        return f'{self.correo_electronico}\t{len(self.peliculas_vistas)}\t{len(self.series_vistas)}'
