@@ -114,3 +114,67 @@ class EstadisticasServicio:
         plt.show()  # Muestra el gráfico
 
         return None
+
+    @classmethod
+    def peliculas_series_vistas(cls, usuario: Usuario) -> Tuple[pd.DataFrame, pd.DataFrame]:
+        """
+        Genera DataFrames con las películas y series vistas por un usuario, evitando duplicados.
+
+        Parameters:
+        usuario (Usuario): El usuario para quien generar los DataFrames.
+
+        Returns:
+        Tuple[pd.DataFrame, pd.DataFrame]: Dos DataFrames, uno para películas vistas y otro para series vistas.
+        """
+
+        # Listas para almacenar información de películas y series vistas
+        peliculas_vistas: List[List] = []
+        series_vistas: List[List] = []
+
+        # Bucle para iterar sobre las películas vistas por el usuario
+        for pelicula in usuario.peliculas_vistas:
+            # Si la película no está en la lista de películas vistas, la agrega
+            if pelicula.id not in [vista[0] for vista in peliculas_vistas]:
+                str_peliculas_vistas = ""  # Reiniciar la cadena de géneros
+                for genero in pelicula.generos:
+                    str_peliculas_vistas += f'{genero}, '
+                pelicula_vista_info = [  # Añadimos en orden los atributos de cada película a la lista
+                    pelicula.id,
+                    pelicula.titulo,
+                    pelicula.director,
+                    pelicula.anio,
+                    str_peliculas_vistas.strip(', '),  # Elimina la última coma y el espacio
+                    pelicula.duracion
+                ]
+                peliculas_vistas.append(pelicula_vista_info)
+
+        # Bucle para iterar sobre las series vistas por el usuario
+        for serie in usuario.series_vistas:
+            # Si la serie no está en la lista de series vistas, la agrega
+            if serie.id not in [vista[0] for vista in series_vistas]:
+                str_series_vistas = ""  # Reiniciar la cadena de géneros
+                for genero in serie.generos:
+                    str_series_vistas += f'{genero}, '
+                serie_vista_info = [  # Añadimos en orden los atributos de cada serie a la lista
+                    serie.id,
+                    serie.titulo,
+                    serie.director,
+                    serie.anio,
+                    str_series_vistas.strip(', '),  # Elimina la última coma y el espacio
+                    serie.temporadas
+                ]
+                series_vistas.append(serie_vista_info)
+
+        # Convierte las listas de películas y series vistas en DataFrames
+        peliculas_vistas_df = pd.DataFrame(peliculas_vistas,
+                                           columns=['ID', 'Título', 'Director', 'Año', 'Géneros', 'Duración'])
+        series_vistas_df = pd.DataFrame(series_vistas,
+                                        columns=['ID', 'Título', 'Director', 'Año', 'Géneros', 'Temporadas'])
+
+        # Configuraciones de visualización de los DataFrames
+        pd.set_option('display.max_colwidth', None)  # Ancho máximo de columnas
+        pd.set_option('expand_frame_repr', False)  # Evitar que los DataFrames se rompan en varias líneas
+        pd.set_option('display.max_columns', None)  # Mostrar todas las columnas
+        pd.set_option('display.max_rows', None)  # Mostrar todas las filas
+
+        return peliculas_vistas_df, series_vistas_df
