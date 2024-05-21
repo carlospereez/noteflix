@@ -3,6 +3,15 @@ from __future__ import annotations
 from servicio import UsuarioServicio
 
 class MenuAcceso:
+    """
+    Clase que representa el menú de acceso de la aplicación.
+
+    Esta clase se encarga de mostrar el menú de acceso y gestionar las opciones seleccionadas por el usuario.
+    Proporciona métodos para dar de alta a un usuario, acceder con un usuario existente, listar todos los usuarios y salir de la aplicación.
+
+    Métodos:
+    mostrar_menu_acceso() -> None: Muestra el menú de acceso y gestiona las opciones seleccionadas por el usuario.
+    """
 
     usuario_logeado = None
     @classmethod
