@@ -29,6 +29,16 @@ class Pelicula(Media):
         super().__init__(id,titulo,director,anio,generos)
         self.duracion = duracion
 
+    def __str__(self):
+        """
+        Devuelve una representación en cadena de la película preparado para
+        mostrarse tabulado en la terminal.
+
+        Returns:
+        str: Una cadena que representa la película.
+        """
+        return f'{self.id}\t{self.titulo}\t{self.director}\t{self.anio}\t{self.duracion}\t{", ".join(self.generos)}'
+
 
 
     pass
