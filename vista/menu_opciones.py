@@ -1,6 +1,6 @@
 import time
 from multiprocessing import Process
-from modelo import media, Usuario
+from modelo import media, Usuario, Media
 from servicio import RecomendacionesServicio, EstadisticasServicio, UsuarioServicio, MediaServicio
 from vista import MenuAcceso
 
@@ -73,25 +73,31 @@ class MenuOpciones:
     @classmethod
     def _mostrar_visualizar_media(cls, tipo_media: str):
         if tipo_media == "PELICULA":
-            id_media = input("Introduzca el id de la película a visualizar")
+            id_media = input("Introduzca el id de la película a visualizar: ")
         elif tipo_media == "SERIE":
-            id_media = input("Introduzca el id de la serie a visualizar")
+            id_media = input("Introduzca el id de la serie a visualizar: ")
         else:
             # Si la funcion no recibe un tipo de media válido, se muestra un mensaje de error, gestionado por una excepción
             raise Exception("Tipo de media no válido")
 
         media = MediaServicio.obtener_pelicula_por_id(
             id_media) if tipo_media == "PELICULA" else MediaServicio.obtener_serie_por_id(id_media)
-        print("Se va a visualizar: " + media.titulo)
-        respuesta = input("Es correcto? (s/n):")
-        if respuesta == "s":
-            cls._simular_visualizacion(media)
-        else:
+        if media is None:
+            print("No se encontró el media con el id indicado")
             print("Volviendo al menú de opciones...")
             cls.mostrar_menu_opciones()
+        else:
+            print("Se va a visualizar: " + media.titulo)
+            respuesta = input("Es correcto? (s/N): ")
+            if respuesta == "s":
+                cls._simular_visualizacion(media)
+            else:
+                print("Volviendo al menú de opciones...")
+                cls.mostrar_menu_opciones()
+
 
     @classmethod
-    def _simular_visualizacion(cls):
+    def _simular_visualizacion(cls, media: Media):
         """
         Simula la visualización de una película o serie.
 
@@ -121,40 +127,47 @@ class MenuOpciones:
     @classmethod
     def _mostrar_estadisticas(cls):
         print("Generando gráfico de estadísticas del usuario " + cls.usuario_logeado.correo_electronico)
-        estadisticas_peliculas, estadisticas_series = EstadisticasServicio.obtener_estadisticas(cls.usuario_logeado)
+        estadisticas_peliculas_df, estadisticas_series_df, estadisticas_peliculas, estadisticas_series = EstadisticasServicio.obtener_estadisticas_usuarios(
+            cls.usuario_logeado)
+        peliculas_vistas_df, series_vistas_df = EstadisticasServicio.peliculas_series_vistas(cls.usuario_logeado)
+        EstadisticasServicio.obtener_grafico_estadisticas(cls.usuario_logeado)
 
-        print("---------------------")
-        print("Estadísticas de películas vistas: ")
-        print("---------------------")
-        print("Genero\tPeliculas vistas")
-        for estadistica in estadisticas_peliculas:
-            print(f'{estadistica}\t{estadisticas_peliculas[estadistica]}')
-
-        print("---------------------")
-        print("Estadísticas de series vistas: ")
-        print("---------------------")
-        print("Genero\tSeries vistas")
-        for estadistica in estadisticas_series:
-            print(f'{estadistica}\t{estadisticas_series[estadistica]}')
+        print("---------------------------")
+        print("Películas vistas:")
+        print("---------------------------")
+        print(peliculas_vistas_df)
+        print("---------------------------")
+        print("Series vistas:")
+        print("---------------------------")
+        print(series_vistas_df)
+        print("---------------------------")
+        print("Estadísticas de películas vistas:")
+        print("---------------------------")
+        print(estadisticas_peliculas_df)
+        print("---------------------------")
+        print("Estadísticas de series vistas:")
+        print("---------------------------")
+        print(estadisticas_series_df)
+        print("---------------------------")
+        print("Pulse ENTER para continuar...")
+        input()
+        cls.mostrar_menu_opciones()
 
     @classmethod
-    def _mostrar_recomendaciones(cls):  # HACER EN CSV ANTES DE ENVIARLO
+    def _mostrar_recomendaciones(cls):
         print("Generando recomendaciones para el usuario " + cls.usuario_logeado.correo_electronico)
         peliculas_recomendadas, series_recomendadas = RecomendacionesServicio.obtener_recomendaciones(
             cls.usuario_logeado)
 
-        print("---------------------")
-        print("Peliculas Recomendadas: ")
-        print("---------------------")
-        print("ID\tTítulo\tDirector\tAño\tDuración\tGéneros")
-        [print(pelicula) for pelicula in peliculas_recomendadas]
-
+        print("---------------------------")
+        print("Peliculas recomendadas:")
+        print("---------------------------")
+        print(peliculas_recomendadas)
         print("---------------------------")
         print("Series recomendadas:")
         print("---------------------------")
-        print("ID\tTítulo\tDirector\tAño\tTemporadas\tGéneros")
-        [print(serie) for serie in series_recomendadas]
-
+        print(series_recomendadas)
+        print("---------------------------")
         print("Pulse ENTER para continuar...")
         input()
         cls.mostrar_menu_opciones()

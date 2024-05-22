@@ -1,1 +1,1 @@
-from menu_acceso import MenuAcceso
+from .menu_acceso import MenuAcceso

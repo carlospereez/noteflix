@@ -1,4 +1,4 @@
-from media import Media
+from .media import Media
 class Serie(Media):
     """
     Clase que representa una serie.

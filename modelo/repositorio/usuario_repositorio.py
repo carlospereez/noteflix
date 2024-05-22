@@ -1,5 +1,6 @@
 from typing import List, Dict, Tuple
 from modelo import Usuario, Pelicula, Serie
+from excepciones import UsuarioYaRegistradoError
 import pickle
 from .media_repositorio import MediaRepositorio
 class UsuarioRepositorio:
@@ -17,8 +18,11 @@ class UsuarioRepositorio:
         if correo_electronico not in usuarios_fichero:
             usuarios_fichero[correo_electronico] = [[], []]
 
-        with open(cls.FICHERO_USUARIOS, 'wb') as f:
-            pickle.dump(usuarios_fichero, f)
+            with open(cls.FICHERO_USUARIOS, 'wb') as f:
+                pickle.dump(usuarios_fichero, f)
+
+        else:
+            raise UsuarioYaRegistradoError()
 
     @classmethod
     def obtener_usuario(cls, correo_electronico: str) -> Usuario | None:
