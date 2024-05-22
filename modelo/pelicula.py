@@ -14,5 +14,21 @@ class Pelicula(Media):
     generos (list of str): La lista de géneros de la película.
     duracion (int): La duración de la película en minutos.
     """
+    def __init__(self, id, titulo, director, anio, generos, duracion):
+        """
+        Inicializa un objeto de la clase película.
+
+        Parameters:
+        id (int): El identificador único de la película.
+        titulo (str): El título de la película.
+        director (str): El director de la película.
+        anio (int): El año de lanzamiento de la película.
+        generos (list of str): La lista de géneros de la película.
+        duracion (int): La duración de la película en minutos.
+        """
+        super().__init__(id,titulo,director,anio,generos)
+        self.duracion = duracion
+
+
 
     pass
