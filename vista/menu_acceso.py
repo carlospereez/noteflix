@@ -39,16 +39,15 @@ class MenuAcceso:
             cls.mostrar_menu_acceso()
 
     @classmethod
-    def alta_usuario(cls):
+    def _alta_usuario(cls):
         mail = input("Introduzca el mail a registrar:")
         try:
             UsuarioServicio.alta_usuario(mail)
-        except(Exception):  # "UsuarioyaexisteError"
-            print("El usuario ya está registrado")
-        except(Exception):  # "MailInvalidoError"
-            print("El texto introducido no es un mail")
+            print("Se ha registrado al usuario correctamente: " + mail)
+        except Exception as e:  # "UsuarioyaexisteError..."
+            print(e)
         finally:
-            cls.login()
+            cls.mostrar_menu_acceso()
 
     @classmethod
     def login(cls):
