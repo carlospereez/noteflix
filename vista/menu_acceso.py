@@ -26,11 +26,11 @@ class MenuAcceso:
         print("---------------------------")
         respuesta = input("Escoja una opción")
         if respuesta == 1:
-            pass
+            cls._alta_usuario()
         elif respuesta == 2:
             pass
         elif respuesta == 3:
-            pass
+            cls._listar_usuarios()
         elif respuesta == 4:
             print("saliendo...")
             exit()
@@ -49,42 +49,21 @@ class MenuAcceso:
         finally:
             cls.mostrar_menu_acceso()
 
-    @classmethod
-    def login(cls):
-        usuario = input("Introduzca el nombre de usuario")
-        try:
-            cls.usuario_logeado = UsuarioServicio.comprobar_usuario(usuario)
-            cls.mostrar_menu_opciones()
-        except:  # aclarar tipos de errores
-            print("El usuario no existe")
-            cls.mostrar_menu_acceso()
 
 
     @classmethod
-    def mostrar_menu_opciones(cls):
-        print("1. Ver catálogo")
-        print("2. Visualizar película")
-        print("3. Obtener recomendaciones")
-        print("4. Mostrar estadísticas")
-        print("5. Volver al menú de acceso")
-        respuesta = input("Introduzca una opción")
-        if respuesta == "1":
-            # Función para mostrar...
-        elif(respuesta == "2"):
-            ...
-        elif(respuesta == "3"):
-            cls.obtener_recomendaciones()
-        elif(respuesta == "4"):
-            cls.mostrar_estadísticas()
-        elif(respuesta == "5"):
-            cls.usuario_logeado = None
-            print("Volviendo al menú de acceso")
+    def _listar_usuarios(cls):
+        usuarios = UsuarioServicio.obtener_usuarios()
+        if len(usuarios) == 0:
+            print("No hay usuarios registrados aún")
             cls.mostrar_menu_acceso()
         else:
-            print("Opcion invalida")
-            cls.mostrar_menu_opciones()
-
-    @classmethod
-    def mostras_estadísticas(cls):
-        print("Generando gráfico de estadísticas del usario "+ cls.usuario_logeado.mail)
-        EstadisticasServicio.obtener_estadisticas_usuarios(cls.usuario_logeado)
+            print("---------------------------")
+            print("Usuarios:")
+            print("---------------------------")
+            print("Correo electrónico\tPeliculas vistas\tSeries vistas")
+            [print(usuario) for usuario in usuarios]
+            print("---------------------------")
+            print("Pulse ENTER para continuar...")
+            input()
+            cls.mostrar_menu_acceso()
