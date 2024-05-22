@@ -1,4 +1,9 @@
-import ...
+import time
+from multiprocessing import Process
+from modelo import media, Usuario
+from servicio import RecomendacionesServicio, EstadisticasServicio, UsuarioServicio, MediaServicio
+from vista import MenuAcceso
+
 
 class MenuOpciones:
     """
@@ -15,7 +20,7 @@ class MenuOpciones:
     mostrar_menu_opciones() -> None: Muestra el menú de opciones y gestiona la opción seleccionada por el usuario.
     """
 
-    usuario_logeado = Usuario | None = None  # variable que guarda el usuario que ha iniciado sesión
+    usuario_logeado: Usuario | None = None  # variable que guarda el usuario que ha iniciado sesión
 
     @classmethod
     def mostrar_menu_opciones(cls):
@@ -48,8 +53,7 @@ class MenuOpciones:
             print("Opción inválida")
             cls.mostrar_menu_opciones()
 
-
-    @classmethod  #CAMBIAR Y HACERLO EN CSV ANTES DE LA ENTREGA
+    @classmethod  # CAMBIAR Y HACERLO EN CSV ANTES DE LA ENTREGA
     def _mostrar_catalogo(cls):
         print("---------------------------")
         print("Peliculas:")
@@ -102,7 +106,7 @@ class MenuOpciones:
         proceso_hijo.start()  # Iniciamos el proceso hijo que simula la visualización de la pelicula
 
         print(f"Visualizando {media.titulo}...", end="")
-        while proceso_hijo.is_alive(): # Mientras el proceso hijo esté vivo, mostramos un mensaje de visualización cada segundo
+        while proceso_hijo.is_alive():  # Mientras el proceso hijo esté vivo, mostramos un mensaje de visualización cada segundo
             print(".", end="")
             time.sleep(1)
         proceso_hijo.join()  # Esperamos a que el proceso hijo termine de ejecutarse
@@ -134,9 +138,10 @@ class MenuOpciones:
             print(f'{estadistica}\t{estadisticas_series[estadistica]}')
 
     @classmethod
-    def _mostrar_recomendaciones(cls): # HACER EN CSV ANTES DE ENVIARLO
+    def _mostrar_recomendaciones(cls):  # HACER EN CSV ANTES DE ENVIARLO
         print("Generando recomendaciones para el usuario " + cls.usuario_logeado.correo_electronico)
-        peliculas_recomendadas, series_recomendadas = RecomendacionesServicio.obtener_recomendaciones(cls.usuario_logeado)
+        peliculas_recomendadas, series_recomendadas = RecomendacionesServicio.obtener_recomendaciones(
+            cls.usuario_logeado)
 
         print("---------------------")
         print("Peliculas Recomendadas: ")
