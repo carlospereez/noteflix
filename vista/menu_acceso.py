@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from servicio import UsuarioServicio
+from excepciones import UsuarioYaRegistradoError
 
 class MenuAcceso:
     """
@@ -44,8 +45,8 @@ class MenuAcceso:
         try:
             UsuarioServicio.alta_usuario(mail)
             print("Se ha registrado al usuario correctamente: " + mail)
-        except Exception as e:  # "UsuarioyaexisteError..."
-            print(e)
+        except UsuarioYaRegistradoError as e:
+            print("El usuario introducido ya está registrado")
         finally:
             cls.mostrar_menu_acceso()
 
