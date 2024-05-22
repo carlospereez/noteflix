@@ -28,7 +28,7 @@ class MenuAcceso:
         if respuesta == 1:
             cls._alta_usuario()
         elif respuesta == 2:
-            pass
+            cls._acceder()
         elif respuesta == 3:
             cls._listar_usuarios()
         elif respuesta == 4:
