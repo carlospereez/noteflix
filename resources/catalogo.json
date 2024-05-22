@@ -1,1206 +1,1606 @@
 {
   "films": [
     {
-        "id": "00001",
-        "name": "Matrix",
-        "duration": "120",
-        "tags": ["Sci-fi", "Action", "Computers", "Guns"]
+      "id": "00001",
+      "name": "Matrix",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "year": "1999",
+      "duration": "120",
+      "tags": ["Sci-fi", "Action", "Computers", "Guns"]
+    },
+    {
+      "id": "00002",
+      "name": "Lord Of The Rings",
+      "director": "Peter Jackson",
+      "year": "2001",
+      "duration": "240",
+      "tags": ["Fantasy", "Bloody", "Magic"]
+    },
+    {
+      "id": "00003",
+      "name": "Inception",
+      "director": "Christopher Nolan",
+      "year": "2010",
+      "duration": "148",
+      "tags": ["Sci-fi", "Action", "Dreams"]
+    },
+    {
+      "id": "00004",
+      "name": "The Shawshank Redemption",
+      "director": "Frank Darabont",
+      "year": "1994",
+      "duration": "142",
+      "tags": ["Drama", "Crime", "Inspirational"]
+    },
+    {
+      "id": "00005",
+      "name": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "year": "1994",
+      "duration": "154",
+      "tags": ["Crime", "Dark Comedy", "Violence"]
+    },
+    {
+      "id": "00006",
+      "name": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "year": "2008",
+      "duration": "152",
+      "tags": ["Action", "Crime", "Superhero"]
+    },
+    {
+      "id": "00007",
+      "name": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "year": "1994",
+      "duration": "142",
+      "tags": ["Drama", "Comedy", "Romance"]
+    },
+    {
+      "id": "00008",
+      "name": "Fight Club",
+      "director": "David Fincher",
+      "year": "1999",
+      "duration": "139",
+      "tags": ["Drama", "Psychological", "Violence"]
+    },
+    {
+      "id": "00009",
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "director": "Peter Jackson",
+      "year": "2001",
+      "duration": "178",
+      "tags": ["Fantasy", "Adventure", "Epic"]
+    },
+    {
+      "id": "00010",
+      "name": "The Lord of the Rings: The Two Towers",
+      "director": "Peter Jackson",
+      "year": "2002",
+      "duration": "179",
+      "tags": ["Fantasy", "Adventure", "Epic"]
+    },
+    {
+      "id": "00011",
+      "name": "The Lord of the Rings: The Return of the King",
+      "director": "Peter Jackson",
+      "year": "2003",
+      "duration": "201",
+      "tags": ["Fantasy", "Adventure", "Epic"]
+    },
+    {
+      "id": "00012",
+      "name": "Interstellar",
+      "director": "Christopher Nolan",
+      "year": "2014",
+      "duration": "169",
+      "tags": ["Sci-fi", "Adventure", "Space"]
+    },
+    {
+      "id": "00013",
+      "name": "The Matrix Reloaded",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "year": "2003",
+      "duration": "138",
+      "tags": ["Sci-fi", "Action", "Sequel"]
     },
     {
-        "id": "00002",
-        "name": "Lord Of The Rings",
-        "duration": "240",
-        "tags": ["Fantasy", "Bloody", "Magic"]
+      "id": "00014",
+      "name": "The Matrix Revolutions",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "year": "2003",
+      "duration": "129",
+      "tags": ["Sci-fi", "Action", "Sequel"]
     },
     {
-        "id": "00003",
-        "name": "Inception",
-        "duration": "148",
-        "tags": ["Sci-fi", "Action", "Dreams"]
+      "id": "00015",
+      "name": "The Godfather",
+      "director": "Francis Ford Coppola",
+      "year": "1972",
+      "duration": "175",
+      "tags": ["Crime", "Drama", "Mafia"]
     },
     {
-        "id": "00004",
-        "name": "The Shawshank Redemption",
-        "duration": "142",
-        "tags": ["Drama", "Crime", "Inspirational"]
+      "id": "00016",
+      "name": "The Godfather: Part II",
+      "director": "Francis Ford Coppola",
+      "year": "1974",
+      "duration": "202",
+      "tags": ["Crime", "Drama", "Mafia"]
     },
     {
-        "id": "00005",
-        "name": "Pulp Fiction",
-        "duration": "154",
-        "tags": ["Crime", "Dark Comedy", "Violence"]
+      "id": "00017",
+      "name": "The Godfather: Part III",
+      "director": "Francis Ford Coppola",
+      "year": "1990",
+      "duration": "162",
+      "tags": ["Crime", "Drama", "Mafia"]
     },
     {
-        "id": "00006",
-        "name": "The Dark Knight",
-        "duration": "152",
-        "tags": ["Action", "Crime", "Superhero"]
+      "id": "00018",
+      "name": "The Silence of the Lambs",
+      "director": "Jonathan Demme",
+      "year": "1991",
+      "duration": "118",
+      "tags": ["Thriller", "Horror", "Psychological"]
     },
     {
-        "id": "00007",
-        "name": "Forrest Gump",
-        "duration": "142",
-        "tags": ["Drama", "Comedy", "Romance"]
+      "id": "00019",
+      "name": "The Lord of the Rings",
+      "director": "Ralph Bakshi",
+      "year": "1978",
+      "duration": "132",
+      "tags": ["Animated", "Adventure", "Fantasy"]
     },
     {
-        "id": "00008",
-        "name": "Fight Club",
-        "duration": "139",
-        "tags": ["Drama", "Psychological", "Violence"]
+      "id": "00020",
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "director": "Peter Jackson",
+      "year": "2001",
+      "duration": "228",
+      "tags": ["Animated", "Adventure", "Fantasy"]
     },
     {
-        "id": "00009",
-        "name": "The Lord of the Rings: The Fellowship of the Ring",
-        "duration": "178",
-        "tags": ["Fantasy", "Adventure", "Epic"]
+      "id": "00021",
+      "name": "The Lord of the Rings: The Two Towers",
+      "director": "Peter Jackson",
+      "year": "2002",
+      "duration": "228",
+      "tags": ["Animated", "Adventure", "Fantasy"]
     },
     {
-        "id": "00010",
-        "name": "The Lord of the Rings: The Two Towers",
-        "duration": "179",
-        "tags": ["Fantasy", "Adventure", "Epic"]
+      "id": "00022",
+      "name": "The Lord of the Rings: The Return of the King",
+      "director": "Peter Jackson",
+      "year": "2003",
+      "duration": "238",
+      "tags": ["Animated", "Adventure", "Fantasy"]
     },
     {
-        "id": "00011",
-        "name": "The Lord of the Rings: The Return of the King",
-        "duration": "201",
-        "tags": ["Fantasy", "Adventure", "Epic"]
+      "id": "00023",
+      "name": "The Lion King",
+      "director": "Roger Allers, Rob Minkoff",
+      "year": "1994",
+      "duration": "88",
+      "tags": ["Animated", "Adventure", "Drama"]
     },
     {
-        "id": "00012",
-        "name": "Interstellar",
-        "duration": "169",
-        "tags": ["Sci-fi", "Adventure", "Space"]
+      "id": "00024",
+      "name": "Toy Story",
+      "director": "John Lasseter",
+      "year": "1995",
+      "duration": "81",
+      "tags": ["Animated", "Adventure", "Comedy"]
     },
     {
-        "id": "00013",
-        "name": "The Matrix Reloaded",
-        "duration": "138",
-        "tags": ["Sci-fi", "Action", "Sequel"]
+      "id": "00025",
+      "name": "Finding Nemo",
+      "director": "Andrew Stanton",
+      "year": "2003",
+      "duration": "100",
+      "tags": ["Animated", "Adventure", "Family"]
     },
     {
-        "id": "00014",
-        "name": "The Matrix Revolutions",
-        "duration": "129",
-        "tags": ["Sci-fi", "Action", "Sequel"]
+      "id": "00026",
+      "name": "The Incredibles",
+      "director": "Brad Bird",
+      "year": "2004",
+      "duration": "115",
+      "tags": ["Animated", "Action", "Superhero"]
     },
     {
-        "id": "00015",
-        "name": "The Godfather",
-        "duration": "175",
-        "tags": ["Crime", "Drama", "Mafia"]
+      "id": "00027",
+      "name": "Monsters, Inc.",
+      "director": "Pete Docter, David Silverman, Lee Unkrich",
+      "year": "2001",
+      "duration": "92",
+      "tags": ["Animated", "Comedy", "Family"]
     },
     {
-        "id": "00016",
-        "name": "The Godfather: Part II",
-        "duration": "202",
-        "tags": ["Crime", "Drama", "Mafia"]
+      "id": "00028",
+      "name": "Shrek",
+      "director": "Andrew Adamson, Vicky Jenson",
+      "year": "2001",
+      "duration": "90",
+      "tags": ["Animated", "Comedy", "Fantasy"]
     },
     {
-        "id": "00017",
-        "name": "The Godfather: Part III",
-        "duration": "162",
-        "tags": ["Crime", "Drama", "Mafia"]
+      "id": "00029",
+      "name": "Shrek 2",
+      "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+      "year": "2004",
+      "duration": "93",
+      "tags": ["Animated", "Comedy", "Fantasy"]
     },
     {
-        "id": "00018",
-        "name": "The Silence of the Lambs",
-        "duration": "118",
-        "tags": ["Thriller", "Horror", "Psychological"]
+      "id": "00030",
+      "name": "Frozen",
+      "director": "Chris Buck, Jennifer Lee",
+      "year": "2013",
+      "duration": "102",
+      "tags": ["Animated", "Adventure", "Family"]
     },
     {
-        "id": "00019",
-        "name": "The Lord of the Rings",
-        "duration": "132",
-        "tags": ["Animated", "Adventure", "Fantasy"]
+      "id": "00031",
+      "name": "Moana",
+      "director": "Ron Clements, John Musker",
+      "year": "2016",
+      "duration": "107",
+      "tags": ["Animated", "Adventure", "Family"]
     },
     {
-        "id": "00020",
-        "name": "The Lord of the Rings: The Fellowship of the Ring",
-        "duration": "228",
-        "tags": ["Animated", "Adventure", "Fantasy"]
+      "id": "00032",
+      "name": "Coco",
+      "director": "Lee Unkrich, Adrian Molina",
+      "year": "2017",
+      "duration": "105",
+      "tags": ["Animated", "Adventure", "Family"]
     },
     {
-        "id": "00021",
-        "name": "The Lord of the Rings: The Two Towers",
-        "duration": "228",
-        "tags": ["Animated", "Adventure", "Fantasy"]
+      "id": "00033",
+      "name": "Zootopia",
+      "director": "Byron Howard, Rich Moore, Jared Bush",
+      "year": "2016",
+      "duration": "108",
+      "tags": ["Animated", "Adventure", "Comedy"]
     },
     {
-        "id": "00022",
-        "name": "The Lord of the Rings: The Return of the King",
-        "duration": "238",
-        "tags": ["Animated", "Adventure", "Fantasy"]
-    },
-    {
-        "id": "00023",
-        "name": "The Lion King",
-        "duration": "88",
-        "tags": ["Animated", "Adventure", "Drama"]
-    },
-    {
-        "id": "00024",
-        "name": "Toy Story",
-        "duration": "81",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00025",
-        "name": "Finding Nemo",
-        "duration": "100",
-        "tags": ["Animated", "Adventure", "Family"]
-    },
-    {
-        "id": "00026",
-        "name": "The Incredibles",
-        "duration": "115",
-        "tags": ["Animated", "Action", "Superhero"]
-    },
-    {
-        "id": "00027",
-        "name": "Monsters, Inc.",
-        "duration": "92",
-        "tags": ["Animated", "Comedy", "Family"]
-    },
-    {
-        "id": "00028",
-        "name": "Shrek",
-        "duration": "90",
-        "tags": ["Animated", "Comedy", "Fantasy"]
-    },
-    {
-        "id": "00029",
-        "name": "Shrek 2",
-        "duration": "93",
-        "tags": ["Animated", "Comedy", "Fantasy"]
-    },
-    {
-        "id": "00030",
-        "name": "Frozen",
-        "duration": "102",
-        "tags": ["Animated", "Adventure", "Family"]
-    },
-    {
-        "id": "00031",
-        "name": "Moana",
-        "duration": "107",
-        "tags": ["Animated", "Adventure", "Family"]
-    },
-    {
-        "id": "00032",
-        "name": "Coco",
-        "duration": "105",
-        "tags": ["Animated", "Adventure", "Family"]
-    },
-    {
-        "id": "00033",
-        "name": "Zootopia",
-        "duration": "108",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00034",
-        "name": "The Little Mermaid",
-        "duration": "83",
-        "tags": ["Animated", "Adventure", "Fantasy"]
-    },
-    {
-        "id": "00035",
-        "name": "Beauty and the Beast",
-        "duration": "84",
-        "tags": ["Animated", "Fantasy", "Romance"]
-    },
-    {
-        "id": "00036",
-        "name": "Aladdin",
-        "duration": "90",
-        "tags": ["Animated", "Adventure", "Fantasy"]
-    },
-    {
-        "id": "00037",
-        "name": "Spider-Man: Into the Spider-Verse",
-        "duration": "117",
-        "tags": ["Animated", "Action", "Superhero"]
-    },
-    {
-        "id": "00038",
-        "name": "Kung Fu Panda",
-        "duration": "92",
-        "tags": ["Animated", "Action", "Comedy"]
-    },
-    {
-        "id": "00039",
-        "name": "How to Train Your Dragon",
-        "duration": "98",
-        "tags": ["Animated", "Adventure", "Fantasy"]
-    },
-    {
-        "id": "00040",
-        "name": "Ratatouille",
-        "duration": "111",
-        "tags": ["Animated", "Comedy", "Family"]
-    },
-    {
-        "id": "00041",
-        "name": "Despicable Me",
-        "duration": "95",
-        "tags": ["Animated", "Comedy", "Family"]
-    },
-    {
-        "id": "00042",
-        "name": "Madagascar",
-        "duration": "86",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00043",
-        "name": "Cars",
-        "duration": "117",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00044",
-        "name": "Toy Story 2",
-        "duration": "92",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00045",
-        "name": "Ice Age",
-        "duration": "81",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00046",
-        "name": "Shrek the Third",
-        "duration": "93",
-        "tags": ["Animated", "Comedy", "Fantasy"]
-    },
-    {
-        "id": "00047",
-        "name": "Finding Dory",
-        "duration": "97",
-        "tags": ["Animated", "Adventure", "Family"]
-    },
-    {
-        "id": "00048",
-        "name": "Kung Fu Panda 2",
-        "duration": "90",
-        "tags": ["Animated", "Action", "Comedy"]
-    },
-    {
-        "id": "00049",
-        "name": "The Simpsons Movie",
-        "duration": "87",
-        "tags": ["Animated", "Comedy"]
-    },
-    {
-        "id": "00050",
-        "name": "Big Hero 6",
-        "duration": "102",
-        "tags": ["Animated", "Action", "Adventure"]
-    },
-    {
-        "id": "00051",
-        "name": "Tangled",
-        "duration": "100",
-        "tags": ["Animated", "Adventure", "Family"]
-    },
-    {
-        "id": "00052",
-        "name": "How to Train Your Dragon 2",
-        "duration": "102",
-        "tags": ["Animated", "Adventure", "Fantasy"]
-    },
-    {
-        "id": "00053",
-        "name": "Up",
-        "duration": "96",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00054",
-        "name": "WALL-E",
-        "duration": "98",
-        "tags": ["Animated", "Sci-fi", "Adventure"]
-    },
-    {
-        "id": "00055",
-        "name": "The Polar Express",
-        "duration": "100",
-        "tags": ["Animated", "Adventure", "Family"]
-    },
-    {
-        "id": "00056",
-        "name": "Brave",
-        "duration": "93",
-        "tags": ["Animated", "Adventure", "Fantasy"]
-    },
-    {
-        "id": "00057",
-        "name": "Monster House",
-        "duration": "91",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00058",
-        "name": "Madagascar: Escape 2 Africa",
-        "duration": "89",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00059",
-        "name": "The Croods",
-        "duration": "98",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00060",
-        "name": "Hotel Transylvania",
-        "duration": "91",
-        "tags": ["Animated", "Comedy", "Family"]
-    },
-    {
-        "id": "00061",
-        "name": "Rango",
-        "duration": "107",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00062",
-        "name": "Cloudy with a Chance of Meatballs",
-        "duration": "90",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00063",
-        "name": "Over the Hedge",
-        "duration": "83",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00064",
-        "name": "Flushed Away",
-        "duration": "85",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00065",
-        "name": "Fantastic Mr. Fox",
-        "duration": "87",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00066",
-        "name": "The Lego Movie",
-        "duration": "100",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00067",
-        "name": "The Adventures of Tintin",
-        "duration": "107",
-        "tags": ["Animated", "Adventure", "Mystery"]
-    },
-    {
-        "id": "00068",
-        "name": "Happy Feet",
-        "duration": "108",
-        "tags": ["Animated", "Comedy", "Family"]
-    },
-    {
-        "id": "00069",
-        "name": "Rio",
-        "duration": "96",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00070",
-        "name": "Ice Age: Dawn of the Dinosaurs",
-        "duration": "94",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00071",
-        "name": "Arthur Christmas",
-        "duration": "97",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00072",
-        "name": "Turbo",
-        "duration": "96",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00073",
-        "name": "Epic",
-        "duration": "102",
-        "tags": ["Animated", "Adventure", "Fantasy"]
-    },
-    {
-        "id": "00074",
-        "name": "The Secret Life of Pets",
-        "duration": "87",
-        "tags": ["Animated", "Comedy", "Adventure"]
-    },
-    {
-        "id": "00075",
-        "name": "Sing",
-        "duration": "108",
-        "tags": ["Animated", "Comedy", "Music"]
-    },
-    {
-        "id": "00076",
-        "name": "Storks",
-        "duration": "87",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00077",
-        "name": "The Boss Baby",
-        "duration": "97",
-        "tags": ["Animated", "Comedy", "Family"]
-    },
-    {
-        "id": "00078",
-        "name": "Captain Underpants: The First Epic Movie",
-        "duration": "89",
-        "tags": ["Animated", "Comedy", "Superhero"]
-    },
-    {
-        "id": "00079",
-        "name": "Coraline",
-        "duration": "100",
-        "tags": ["Animated", "Fantasy", "Horror"]
-    },
-    {
-        "id": "00080",
-        "name": "Shaun the Sheep Movie",
-        "duration": "85",
-        "tags": ["Animated", "Comedy", "Adventure"]
-    },
-    {
-        "id": "00081",
-        "name": "The Lego Batman Movie",
-        "duration": "104",
-        "tags": ["Animated", "Action", "Comedy"]
-    },
-    {
-        "id": "00082",
-        "name": "The SpongeBob SquarePants Movie",
-        "duration": "87",
-        "tags": ["Animated", "Comedy", "Adventure"]
-    },
-    {
-        "id": "00083",
-        "name": "Mr. Peabody & Sherman",
-        "duration": "92",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00084",
-        "name": "Wreck-It Ralph",
-        "duration": "101",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00085",
-        "name": "The Emoji Movie",
-        "duration": "86",
-        "tags": ["Animated", "Comedy", "Adventure"]
-    },
-    {
-        "id": "00086",
-        "name": "Inside Out",
-        "duration": "95",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00087",
-        "name": "Sausage Party",
-        "duration": "89",
-        "tags": ["Animated", "Comedy"]
-    },
-    {
-        "id": "00088",
-        "name": "The Angry Birds Movie",
-        "duration": "97",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00089",
-        "name": "The Nut Job",
-        "duration": "85",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00090",
-        "name": "The Lego Ninjago Movie",
-        "duration": "101",
-        "tags": ["Animated", "Action", "Comedy"]
-    },
-    {
-        "id": "00091",
-        "name": "Ferdinand",
-        "duration": "108",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00092",
-        "name": "Hotel Transylvania 2",
-        "duration": "89",
-        "tags": ["Animated", "Comedy", "Family"]
-    },
-    {
-        "id": "00093",
-        "name": "Penguins of Madagascar",
-        "duration": "92",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00094",
-        "name": "The Lego Movie 2: The Second Part",
-        "duration": "107",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00095",
-        "name": "Trolls",
-        "duration": "92",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00096",
-        "name": "Minions",
-        "duration": "91",
-        "tags": ["Animated", "Adventure", "Comedy"]
-    },
-    {
-        "id": "00097",
-        "name": "Sing 2",
-        "duration": "110",
-        "tags": ["Animated", "Comedy", "Music"]
-    },
-    {
-        "id": "00098",
-        "name": "Raya and the Last Dragon",
-        "duration": "107",
-        "tags": ["Animated", "Adventure", "Fantasy"]
-    },
-    {
-      "id": "00099",
-      "name": "Luca",
+      "id": "00034",
+      "name": "Inside Out",
+      "director": "Pete Docter, Ronnie del Carmen",
+      "year": "2015",
       "duration": "95",
       "tags": ["Animated", "Adventure", "Comedy"]
     },
     {
-        "id": "00100",
-        "name": "Encanto",
-        "duration": "102",
-        "tags": ["Animated", "Adventure", "Family"]
+      "id": "00035",
+      "name": "Brave",
+      "director": "Mark Andrews, Brenda Chapman, Steve Purcell",
+      "year": "2012",
+      "duration": "93",
+      "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+      "id": "00036",
+      "name": "WALL-E",
+      "director": "Andrew Stanton",
+      "year": "2008",
+      "duration": "98",
+      "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+      "id": "00037",
+      "name": "Up",
+      "director": "Pete Docter, Bob Peterson",
+      "year": "2009",
+      "duration": "96",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00038",
+      "name": "Ratatouille",
+      "director": "Brad Bird, Jan Pinkava",
+      "year": "2007",
+      "duration": "111",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00039",
+      "name": "The Simpsons Movie",
+      "director": "David Silverman",
+      "year": "2007",
+      "duration": "87",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00040",
+      "name": "Finding Dory",
+      "director": "Andrew Stanton, Angus MacLane",
+      "year": "2016",
+      "duration": "97",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00041",
+      "name": "Despicable Me",
+      "director": "Pierre Coffin, Chris Renaud",
+      "year": "2010",
+      "duration": "95",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00042",
+      "name": "Despicable Me 2",
+      "director": "Pierre Coffin, Chris Renaud",
+      "year": "2013",
+      "duration": "98",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00043",
+      "name": "Despicable Me 3",
+      "director": "Kyle Balda, Pierre Coffin, Eric Guillon",
+      "year": "2017",
+      "duration": "90",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00044",
+      "name": "Minions",
+      "director": "Kyle Balda, Pierre Coffin",
+      "year": "2015",
+      "duration": "91",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00045",
+      "name": "Minions: The Rise of Gru",
+      "director": "Kyle Balda, Brad Ableson, Jonathan del Val",
+      "year": "2022",
+      "duration": "90",
+      "tags": ["Animated", "Adventure", "Comedy"]
+    },
+    {
+      "id": "00046",
+      "name": "How to Train Your Dragon",
+      "director": "Dean DeBlois, Chris Sanders",
+      "year": "2010",
+      "duration": "98",
+      "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+      "id": "00047",
+      "name": "How to Train Your Dragon 2",
+      "director": "Dean DeBlois",
+      "year": "2014",
+      "duration": "102",
+      "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+      "id": "00048",
+      "name": "How to Train Your Dragon: The Hidden World",
+      "director": "Dean DeBlois",
+      "year": "2019",
+      "duration": "104",
+      "tags": ["Animated", "Adventure", "Family"]
+    },
+    {
+      "id": "00049",
+      "name": "Avatar",
+      "director": "James Cameron",
+      "year": "2009",
+      "duration": "162",
+      "tags": ["Sci-fi", "Adventure", "Fantasy"]
+    },
+    {
+      "id": "00050",
+      "name": "Titanic",
+      "director": "James Cameron",
+      "year": "1997",
+      "duration": "195",
+      "tags": ["Drama", "Romance", "Historical"]
+    },
+    {
+      "id": "00051",
+      "name": "Jurassic Park",
+      "director": "Steven Spielberg",
+      "year": "1993",
+      "duration": "127",
+      "tags": ["Sci-fi", "Adventure", "Thriller"]
+    },
+    {
+      "id": "00052",
+      "name": "The Terminator",
+      "director": "James Cameron",
+      "year": "1984",
+      "duration": "107",
+      "tags": ["Sci-fi", "Action", "Thriller"]
+    },
+    {
+      "id": "00053",
+      "name": "Terminator 2: Judgment Day",
+      "director": "James Cameron",
+      "year": "1991",
+      "duration": "137",
+      "tags": ["Sci-fi", "Action", "Thriller"]
+    },
+    {
+      "id": "00054",
+      "name": "Aliens",
+      "director": "James Cameron",
+      "year": "1986",
+      "duration": "137",
+      "tags": ["Sci-fi", "Action", "Horror"]
+    },
+    {
+      "id": "00055",
+      "name": "Alien",
+      "director": "Ridley Scott",
+      "year": "1979",
+      "duration": "117",
+      "tags": ["Sci-fi", "Horror", "Thriller"]
+    },
+    {
+      "id": "00056",
+      "name": "Gladiator",
+      "director": "Ridley Scott",
+      "year": "2000",
+      "duration": "155",
+      "tags": ["Action", "Adventure", "Drama"]
+    },
+    {
+      "id": "00057",
+      "name": "Braveheart",
+      "director": "Mel Gibson",
+      "year": "1995",
+      "duration": "178",
+      "tags": ["Action", "Biography", "Drama"]
+    },
+    {
+      "id": "00058",
+      "name": "Saving Private Ryan",
+      "director": "Steven Spielberg",
+      "year": "1998",
+      "duration": "169",
+      "tags": ["Drama", "War", "Action"]
+    },
+    {
+      "id": "00059",
+      "name": "Schindler's List",
+      "director": "Steven Spielberg",
+      "year": "1993",
+      "duration": "195",
+      "tags": ["Drama", "History", "War"]
+    },
+    {
+      "id": "00060",
+      "name": "E.T. the Extra-Terrestrial",
+      "director": "Steven Spielberg",
+      "year": "1982",
+      "duration": "115",
+      "tags": ["Sci-fi", "Family", "Adventure"]
+    },
+    {
+      "id": "00061",
+      "name": "Jaws",
+      "director": "Steven Spielberg",
+      "year": "1975",
+      "duration": "124",
+      "tags": ["Thriller", "Horror", "Adventure"]
+    },
+    {
+      "id": "00062",
+      "name": "Indiana Jones and the Raiders of the Lost Ark",
+      "director": "Steven Spielberg",
+      "year": "1981",
+      "duration": "115",
+      "tags": ["Adventure", "Action", "Fantasy"]
+    },
+    {
+      "id": "00063",
+      "name": "Indiana Jones and the Temple of Doom",
+      "director": "Steven Spielberg",
+      "year": "1984",
+      "duration": "118",
+      "tags": ["Adventure", "Action", "Fantasy"]
+    },
+    {
+      "id": "00064",
+      "name": "Indiana Jones and the Last Crusade",
+      "director": "Steven Spielberg",
+      "year": "1989",
+      "duration": "127",
+      "tags": ["Adventure", "Action", "Fantasy"]
+    },
+    {
+      "id": "00065",
+      "name": "The Last Samurai",
+      "director": "Edward Zwick",
+      "year": "2003",
+      "duration": "154",
+      "tags": ["Action", "Drama", "History"]
+    },
+    {
+      "id": "00066",
+      "name": "The Great Escape",
+      "director": "John Sturges",
+      "year": "1963",
+      "duration": "172",
+      "tags": ["Adventure", "Drama", "History"]
+    },
+    {
+      "id": "00067",
+      "name": "Lawrence of Arabia",
+      "director": "David Lean",
+      "year": "1962",
+      "duration": "222",
+      "tags": ["Adventure", "Biography", "Drama"]
+    },
+    {
+      "id": "00068",
+      "name": "Gone with the Wind",
+      "director": "Victor Fleming, George Cukor, Sam Wood",
+      "year": "1939",
+      "duration": "238",
+      "tags": ["Drama", "Romance", "War"]
+    },
+    {
+      "id": "00069",
+      "name": "Citizen Kane",
+      "director": "Orson Welles",
+      "year": "1941",
+      "duration": "119",
+      "tags": ["Drama", "Mystery"]
+    },
+    {
+      "id": "00070",
+      "name": "Casablanca",
+      "director": "Michael Curtiz",
+      "year": "1942",
+      "duration": "102",
+      "tags": ["Drama", "Romance", "War"]
+    },
+    {
+      "id": "00071",
+      "name": "The Wizard of Oz",
+      "director": "Victor Fleming, George Cukor, Mervyn LeRoy, Norman Taurog, King Vidor",
+      "year": "1939",
+      "duration": "102",
+      "tags": ["Adventure", "Family", "Fantasy"]
+    },
+    {
+      "id": "00072",
+      "name": "Psycho",
+      "director": "Alfred Hitchcock",
+      "year": "1960",
+      "duration": "109",
+      "tags": ["Horror", "Mystery", "Thriller"]
+    },
+    {
+      "id": "00073",
+      "name": "Rear Window",
+      "director": "Alfred Hitchcock",
+      "year": "1954",
+      "duration": "112",
+      "tags": ["Mystery", "Thriller"]
+    },
+    {
+      "id": "00074",
+      "name": "Vertigo",
+      "director": "Alfred Hitchcock",
+      "year": "1958",
+      "duration": "128",
+      "tags": ["Mystery", "Romance", "Thriller"]
+    },
+    {
+      "id": "00075",
+      "name": "North by Northwest",
+      "director": "Alfred Hitchcock",
+      "year": "1959",
+      "duration": "136",
+      "tags": ["Adventure", "Mystery", "Thriller"]
+    },
+    {
+      "id": "00076",
+      "name": "The Birds",
+      "director": "Alfred Hitchcock",
+      "year": "1963",
+      "duration": "119",
+      "tags": ["Horror", "Mystery", "Thriller"]
+    },
+    {
+      "id": "00077",
+      "name": "A Clockwork Orange",
+      "director": "Stanley Kubrick",
+      "year": "1971",
+      "duration": "136",
+      "tags": ["Crime", "Drama", "Sci-fi"]
+    },
+    {
+      "id": "00078",
+      "name": "Full Metal Jacket",
+      "director": "Stanley Kubrick",
+      "year": "1987",
+      "duration": "116",
+      "tags": ["Drama", "War"]
+    },
+    {
+      "id": "00079",
+      "name": "The Shining",
+      "director": "Stanley Kubrick",
+      "year": "1980",
+      "duration": "146",
+      "tags": ["Drama", "Horror"]
+    },
+    {
+      "id": "00080",
+      "name": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+      "director": "Stanley Kubrick",
+      "year": "1964",
+      "duration": "95",
+      "tags": ["Comedy", "War"]
+    },
+    {
+      "id": "00081",
+      "name": "2001: A Space Odyssey",
+      "director": "Stanley Kubrick",
+      "year": "1968",
+      "duration": "149",
+      "tags": ["Adventure", "Sci-fi"]
+    },
+    {
+      "id": "00082",
+      "name": "Goodfellas",
+      "director": "Martin Scorsese",
+      "year": "1990",
+      "duration": "146",
+      "tags": ["Biography", "Crime", "Drama"]
+    },
+    {
+      "id": "00083",
+      "name": "Taxi Driver",
+      "director": "Martin Scorsese",
+      "year": "1976",
+      "duration": "114",
+      "tags": ["Crime", "Drama"]
+    },
+    {
+      "id": "00084",
+      "name": "Raging Bull",
+      "director": "Martin Scorsese",
+      "year": "1980",
+      "duration": "129",
+      "tags": ["Biography", "Drama", "Sport"]
+    },
+    {
+      "id": "00085",
+      "name": "The Departed",
+      "director": "Martin Scorsese",
+      "year": "2006",
+      "duration": "151",
+      "tags": ["Crime", "Drama", "Thriller"]
+    },
+    {
+      "id": "00086",
+      "name": "Hugo",
+      "director": "Martin Scorsese",
+      "year": "2011",
+      "duration": "126",
+      "tags": ["Adventure", "Drama", "Family"]
+    },
+    {
+      "id": "00087",
+      "name": "The Wolf of Wall Street",
+      "director": "Martin Scorsese",
+      "year": "2013",
+      "duration": "180",
+      "tags": ["Biography", "Comedy", "Crime"]
+    },
+    {
+      "id": "00088",
+      "name": "Shutter Island",
+      "director": "Martin Scorsese",
+      "year": "2010",
+      "duration": "138",
+      "tags": ["Mystery", "Thriller"]
+    },
+    {
+      "id": "00089",
+      "name": "Inglourious Basterds",
+      "director": "Quentin Tarantino",
+      "year": "2009",
+      "duration": "153",
+      "tags": ["Adventure", "Drama", "War"]
+    },
+    {
+      "id": "00090",
+      "name": "Kill Bill: Vol. 1",
+      "director": "Quentin Tarantino",
+      "year": "2003",
+      "duration": "111",
+      "tags": ["Action", "Crime", "Thriller"]
+    },
+    {
+      "id": "00091",
+      "name": "Kill Bill: Vol. 2",
+      "director": "Quentin Tarantino",
+      "year": "2004",
+      "duration": "137",
+      "tags": ["Action", "Crime", "Thriller"]
+    },
+    {
+      "id": "00092",
+      "name": "Django Unchained",
+      "director": "Quentin Tarantino",
+      "year": "2012",
+      "duration": "165",
+      "tags": ["Drama", "Western"]
+    },
+    {
+      "id": "00093",
+      "name": "Reservoir Dogs",
+      "director": "Quentin Tarantino",
+      "year": "1992",
+      "duration": "99",
+      "tags": ["Crime", "Drama", "Thriller"]
+    },
+    {
+      "id": "00094",
+      "name": "The Hateful Eight",
+      "director": "Quentin Tarantino",
+      "year": "2015",
+      "duration": "187",
+      "tags": ["Crime", "Drama", "Mystery"]
+    },
+    {
+      "id": "00095",
+      "name": "Once Upon a Time in Hollywood",
+      "director": "Quentin Tarantino",
+      "year": "2019",
+      "duration": "161",
+      "tags": ["Comedy", "Drama"]
+    },
+    {
+      "id": "00096",
+      "name": "Mad Max: Fury Road",
+      "director": "George Miller",
+      "year": "2015",
+      "duration": "120",
+      "tags": ["Action", "Adventure", "Sci-fi"]
+    },
+    {
+      "id": "00097",
+      "name": "The Revenant",
+      "director": "Alejandro G. Iñárritu",
+      "year": "2015",
+      "duration": "156",
+      "tags": ["Adventure", "Drama", "Thriller"]
+    },
+    {
+      "id": "00098",
+      "name": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "director": "Alejandro G. Iñárritu",
+      "year": "2014",
+      "duration": "119",
+      "tags": ["Comedy", "Drama"]
+    },
+    {
+      "id": "00099",
+      "name": "The Social Network",
+      "director": "David Fincher",
+      "year": "2010",
+      "duration": "120",
+      "tags": ["Biography", "Drama"]
+    },
+    {
+      "id": "00100",
+      "name": "Se7en",
+      "director": "David Fincher",
+      "year": "1995",
+      "duration": "127",
+      "tags": ["Crime", "Drama", "Mystery"]
     }
   ],
-  "series":[
+  "series": [
     {
       "id": "00001",
       "name": "The Simpsons",
+      "year": "1989",
+      "author": "Matt Groening",
       "seasons": [34, 12, 43, 12],
       "tags": ["Animation", "Comedy"]
     },
     {
       "id": "00002",
       "name": "South Park",
+      "year": "1997",
+      "author": "Trey Parker, Matt Stone",
       "seasons": [25, 10, 10, 14],
       "tags": ["Animation", "Comedy", "Satire"]
     },
     {
       "id": "00003",
       "name": "Family Guy",
+      "year": "1999",
+      "author": "Seth MacFarlane",
       "seasons": [21, 18, 20, 16],
       "tags": ["Animation", "Comedy", "Adult Swim"]
     },
     {
       "id": "00004",
       "name": "Rick and Morty",
+      "year": "2013",
+      "author": "Dan Harmon, Justin Roiland",
       "seasons": [5, 10, 9, 10],
       "tags": ["Animation", "Sci-Fi", "Comedy"]
     },
     {
       "id": "00005",
       "name": "Bob's Burgers",
+      "year": "2011",
+      "author": "Loren Bouchard",
       "seasons": [13, 22, 22, 22],
       "tags": ["Animation", "Comedy", "Sitcom"]
     },
     {
       "id": "00006",
       "name": "American Dad!",
+      "year": "2005",
+      "author": "Seth MacFarlane, Mike Barker, Matt Weitzman",
       "seasons": [17, 19, 15, 19],
       "tags": ["Animation", "Comedy", "Sci-Fi"]
     },
     {
       "id": "00007",
       "name": "Futurama",
+      "year": "1999",
+      "author": "Matt Groening, David X. Cohen",
       "seasons": [7, 7, 26, 12, 1, 12],
       "tags": ["Animation", "Sci-Fi", "Comedy"]
     },
     {
       "id": "00008",
       "name": "King of the Hill",
+      "year": "1997",
+      "author": "Mike Judge, Greg Daniels",
       "seasons": [13, 13, 13, 13, 13, 2],
       "tags": ["Animation", "Comedy", "Sitcom"]
     },
     {
       "id": "00009",
       "name": "The Ren & Stimpy Show",
+      "year": "1991",
+      "author": "John Kricfalusi",
       "seasons": [5, 5, 1],
       "tags": ["Animation", "Comedy", "Adult Swim"]
     },
     {
       "id": "00010",
       "name": "Beavis and Butt-Head",
+      "year": "1993",
+      "author": "Mike Judge",
       "seasons": [8, 8, 2, 1],
       "tags": ["Animation", "Comedy", "Adult Swim"]
     },
     {
       "id": "00011",
       "name": "SpongeBob SquarePants",
+      "year": "1999",
+      "author": "Stephen Hillenburg",
       "seasons": [13, 22, 22, 22],
       "tags": ["Animation", "Comedy", "Kids"]
     },
     {
       "id": "00012",
       "name": "Adventure Time",
+      "year": "2010",
+      "author": "Pendleton Ward",
       "seasons": [10, 10, 12, 8, 2],
       "tags": ["Animation", "Comedy", "Fantasy"]
     },
     {
       "id": "00013",
       "name": "Regular Show",
+      "year": "2010",
+      "author": "J.G. Quintel",
       "seasons": [8, 8, 8, 1],
       "tags": ["Animation", "Comedy", "Surreal"]
     },
     {
       "id": "00014",
       "name": "The Amazing World of Gumball",
+      "year": "2011",
+      "author": "Ben Bocquelet",
       "seasons": [6, 6, 6, 1],
       "tags": ["Animation", "Comedy", "Kids"]
     },
     {
       "id": "00015",
       "name": "Steven Universe",
+      "year": "2013",
+      "author": "Rebecca Sugar",
       "seasons": [5, 5, 5, 8],
       "tags": ["Animation", "Comedy", "Fantasy"]
     },
     {
       "id": "00016",
       "name": "Gravity Falls",
+      "year": "2012",
+      "author": "Alex Hirsch",
       "seasons": [2, 1],
       "tags": ["Animation", "Mystery", "Comedy"]
     },
     {
       "id": "00017",
       "name": "Star vs. the Forces of Evil",
+      "year": "2015",
+      "author": "Daron Nefcy",
       "seasons": [4, 4, 2],
       "tags": ["Animation", "Comedy", "Fantasy"]
     },
     {
       "id": "00018",
       "name": "The Owl House",
+      "year": "2020",
+      "author": "Dana Terrace",
       "seasons": [2, 2, 3],
       "tags": ["Animation", "Adventure", "Fantasy"]
     },
     {
       "id": "00019",
       "name": "Amphibia",
+      "year": "2019",
+      "author": "Matt Braly",
       "seasons": [3, 3, 1],
       "tags": ["Animation", "Adventure", "Comedy"]
     },
     {
       "id": "00020",
       "name": "The Powerpuff Girls",
+      "year": "1998",
+      "author": "Craig McCracken",
       "seasons": [6, 7, 1],
       "tags": ["Animation", "Action", "Comedy"]
     },
     {
       "id": "00021",
       "name": "Dexter's Laboratory",
+      "year": "1996",
+      "author": "Genndy Tartakovsky",
       "seasons": [4, 2, 1],
       "tags": ["Animation", "Comedy", "Sci-Fi"]
     },
     {
       "id": "00022",
       "name": "Johnny Bravo",
+      "year": "1997",
+      "author": "Van Partible",
       "seasons": [4, 4, 1],
       "tags": ["Animation", "Comedy", "Parody"]
     },
     {
       "id": "00023",
       "name": "Ed, Edd & Eddy",
+      "year": "1999",
+      "author": "Danny Antonucci",
       "seasons": [6, 2, 1],
       "tags": ["Animation", "Comedy", "Slice of Life"]
     },
     {
       "id": "00024",
       "name": "The Grim Adventures of Billy and Mandy",
+      "year": "2001",
+      "author": "Maxwell Atoms",
       "seasons": [8, 6, 2],
       "tags": ["Animation", "Comedy", "Black Comedy"]
     },
     {
       "id": "00025",
       "name": "Courage the Cowardly Dog",
+      "year": "1999",
+      "author": "John R. Dilworth",
       "seasons": [4, 4, 2],
       "tags": ["Animation", "Comedy", "Horror"]
     },
     {
       "id": "00026",
       "name": "Samurai Jack",
+      "year": "2001",
+      "author": "Genndy Tartakovsky",
       "seasons": [5, 1],
       "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00027",
       "name": "Avatar: The Last Airbender",
+      "year": "2005",
+      "author": "Michael Dante DiMartino, Bryan Konietzko",
       "seasons": [3, 3],
       "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00028",
       "name": "The Legend of Korra",
+      "year": "2012",
+      "author": "Michael Dante DiMartino, Bryan Konietzko",
       "seasons": [4, 4, 2],
       "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00029",
       "name": "Voltron: Legendary Defender",
+      "year": "2016",
+      "author": "Lauren Montgomery, Joaquim Dos Santos",
       "seasons": [8, 8],
-      "tags": ["Animation", "Action", "Sci-Fi"]
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00030",
-      "name": "She-Ra and the Princesses of Power",
-      "seasons": [5, 5],
+      "name": "Teen Titans",
+      "year": "2003",
+      "author": "Glen Murakami",
+      "seasons": [5, 1],
       "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00031",
-      "name": "Kipo and the Age of Wonderbeasts",
-      "seasons": [3, 2],
-      "tags": ["Animation", "Adventure", "Fantasy"]
+      "name": "Young Justice",
+      "year": "2010",
+      "author": "Greg Weisman, Brandon Vietti",
+      "seasons": [4, 4, 2],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00032",
-      "name": "The Dragon Prince",
-      "seasons": [3, 3],
-      "tags": ["Animation", "Action", "Fantasy"]
+      "name": "Justice League",
+      "year": "2001",
+      "author": "Bruce Timm, Paul Dini",
+      "seasons": [2, 2, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00033",
-      "name": "Castlevania",
-      "seasons": [4, 4],
-      "tags": ["Animation", "Action", "Horror"]
+      "name": "Justice League Unlimited",
+      "year": "2004",
+      "author": "Bruce Timm, James Tucker",
+      "seasons": [3, 3, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00034",
-      "name": "The Witcher: Nightmare of the Wolf",
-      "seasons": [1],
-      "tags": ["Animation", "Action", "Fantasy"]
+      "name": "Batman: The Animated Series",
+      "year": "1992",
+      "author": "Bruce Timm, Paul Dini",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00035",
-      "name": "Arcane",
-      "seasons": [1],
+      "name": "Superman: The Animated Series",
+      "year": "1996",
+      "author": "Alan Burnett, Bruce Timm",
+      "seasons": [4, 1],
       "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00036",
-      "name": "Invincible",
-      "seasons": [3],
-      "tags": ["Animation", "Action", "Superhero"]
+      "name": "Teenage Mutant Ninja Turtles",
+      "year": "1987",
+      "author": "Kevin Eastman, Peter Laird",
+      "seasons": [10, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00037",
-      "name": "Demon Slayer: Kimetsu no Yaiba",
-      "seasons": [2, 1],
+      "name": "DuckTales",
+      "year": "1987",
+      "author": "Carl Barks",
+      "seasons": [4, 1],
       "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00038",
-      "name": "Jujutsu Kaisen",
-      "seasons": [1],
-      "tags": ["Animation", "Action", "Supernatural"]
+      "name": "Darkwing Duck",
+      "year": "1991",
+      "author": "Tad Stones",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00039",
-      "name": "Attack on Titan",
-      "seasons": [4, 2, 2],
-      "tags": ["Animation", "Action", "Dark Fantasy"]
+      "name": "Gargoyles",
+      "year": "1994",
+      "author": "Greg Weisman",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00040",
-      "name": "My Hero Academia",
-      "seasons": [5, 6],
-      "tags": ["Animation", "Action", "Superhero"]
+      "name": "Animaniacs",
+      "year": "1993",
+      "author": "Tom Ruegger",
+      "seasons": [5, 1],
+      "tags": ["Animation", "Comedy", "Variety"]
     },
     {
       "id": "00041",
-      "name": "One Piece",
-      "seasons": [20],
-      "tags": ["Animation", "Action", "Adventure"]
+      "name": "Pinky and the Brain",
+      "year": "1995",
+      "author": "Tom Ruegger",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Comedy", "Variety"]
     },
     {
       "id": "00042",
-      "name": "Naruto",
-      "seasons": [7, 7, 2],
-      "tags": ["Animation", "Action", "Ninja"]
+      "name": "Tiny Toon Adventures",
+      "year": "1990",
+      "author": "Tom Ruegger",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Comedy", "Variety"]
     },
     {
       "id": "00043",
-      "name": "Naruto: Shippuden",
-      "seasons": [21],
-      "tags": ["Animation", "Action", "Ninja"]
+      "name": "Freakazoid!",
+      "year": "1995",
+      "author": "Bruce Timm, Tom Ruegger",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Comedy", "Superhero"]
     },
     {
       "id": "00044",
-      "name": "Bleach",
-      "seasons": [16, 362],
-      "tags": ["Animation", "Action", "Supernatural"]
+      "name": "The Flintstones",
+      "year": "1960",
+      "author": "William Hanna, Joseph Barbera",
+      "seasons": [6, 1],
+      "tags": ["Animation", "Comedy", "Family"]
     },
     {
       "id": "00045",
-      "name": "Dragon Ball Z",
-      "seasons": [9],
-      "tags": ["Animation", "Action", "Martial Arts"]
+      "name": "The Jetsons",
+      "year": "1962",
+      "author": "William Hanna, Joseph Barbera",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Comedy", "Family"]
     },
     {
       "id": "00046",
-      "name": "Fullmetal Alchemist: Brotherhood",
-      "seasons": [5, 64],
-      "tags": ["Animation", "Action", "Adventure"]
+      "name": "Scooby-Doo, Where Are You!",
+      "year": "1969",
+      "author": "Joe Ruby, Ken Spears",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Comedy", "Mystery"]
     },
     {
       "id": "00047",
-      "name": "Cowboy Bebop",
-      "seasons": [1, 26],
-      "tags": ["Animation", "Sci-Fi", "Space Western"]
+      "name": "Tom and Jerry",
+      "year": "1940",
+      "author": "William Hanna, Joseph Barbera",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Comedy", "Family"]
     },
     {
       "id": "00048",
-      "name": "Neon Genesis Evangelion",
-      "seasons": [1, 26],
-      "tags": ["Animation", "Mecha", "Psychological"]
+      "name": "Looney Tunes",
+      "year": "1930",
+      "author": "Various",
+      "seasons": [39, 1],
+      "tags": ["Animation", "Comedy", "Family"]
     },
     {
       "id": "00049",
-      "name": "Your Name",
-      "seasons": [1, 1],
-      "tags": ["Animation", "Romance", "Fantasy"]
+      "name": "Merrie Melodies",
+      "year": "1931",
+      "author": "Various",
+      "seasons": [39, 1],
+      "tags": ["Animation", "Comedy", "Family"]
     },
     {
       "id": "00050",
-      "name": "Spirited Away",
-      "seasons": [1, 1],
-      "tags": ["Animation", "Fantasy", "Coming-of-age"]
+      "name": "The Pink Panther Show",
+      "year": "1969",
+      "author": "Blake Edwards, David H. DePatie, Friz Freleng",
+      "seasons": [11, 1],
+      "tags": ["Animation", "Comedy", "Family"]
     },
     {
       "id": "00051",
-      "name": "Princess Mononoke",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "War"]
+      "name": "He-Man and the Masters of the Universe",
+      "year": "1983",
+      "author": "Mattel",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Fantasy"]
     },
     {
       "id": "00052",
-      "name": "Howl's Moving Castle",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "She-Ra: Princess of Power",
+      "year": "1985",
+      "author": "Mattel",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Fantasy"]
     },
     {
       "id": "00053",
-      "name": "Kiki's Delivery Service",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Slice of Life"]
+      "name": "ThunderCats",
+      "year": "1985",
+      "author": "Tobin Wolf",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Action", "Fantasy"]
     },
     {
       "id": "00054",
-      "name": "Ponyo",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Inspector Gadget",
+      "year": "1983",
+      "author": "Bruno Bianchi, Andy Heyward, Jean Chalopin",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Comedy"]
     },
     {
       "id": "00055",
-      "name": "The Wind Rises",
-      "seasons": [1],
-      "tags": ["Animation", "Historical Fiction", "Drama"]
+      "name": "Darkstalkers",
+      "year": "1995",
+      "author": "Capcom",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Fantasy"]
     },
     {
       "id": "00056",
-      "name": "Weathering with You",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Romance"]
+      "name": "Sonic the Hedgehog",
+      "year": "1993",
+      "author": "SEGA",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00057",
-      "name": "Violet Evergarden",
-      "seasons": [1, 1],
-      "tags": ["Animation", "Drama", "Fantasy"]
+      "name": "Sonic X",
+      "year": "2003",
+      "author": "SEGA",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00058",
-      "name": "A Silent Voice",
-      "seasons": [1],
-      "tags": ["Animation", "Drama", "Romance"]
+      "name": "Mega Man",
+      "year": "1994",
+      "author": "Capcom",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00059",
-      "name": "Your Lie in April",
-      "seasons": [1, 1],
-      "tags": ["Animation", "Drama", "Music"]
+      "name": "Street Fighter",
+      "year": "1995",
+      "author": "Capcom",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Martial Arts"]
     },
     {
       "id": "00060",
-      "name": "Anohana: The Flower We Saw That Day",
-      "seasons": [1],
-      "tags": ["Animation", "Drama", "Friendship"]
+      "name": "Mortal Kombat: Defenders of the Realm",
+      "year": "1996",
+      "author": "Lawrence Kasanoff",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Martial Arts"]
     },
     {
       "id": "00061",
-      "name": "Clannad: After Story",
-      "seasons": [1],
-      "tags": ["Animation", "Drama", "Romance"]
+      "name": "Double Dragon",
+      "year": "1993",
+      "author": "Technos Japan",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Martial Arts"]
     },
     {
       "id": "00062",
-      "name": "Madoka Magica",
-      "seasons": [1, 1],
-      "tags": ["Animation", "Drama", "Fantasy"]
+      "name": "Captain N: The Game Master",
+      "year": "1989",
+      "author": "Nintendo",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00063",
-      "name": "Fullmetal Alchemist",
-      "seasons": [51],
+      "name": "The Legend of Zelda",
+      "year": "1989",
+      "author": "Nintendo",
+      "seasons": [1, 1],
       "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00064",
-      "name": "Hunter x Hunter",
-      "seasons": [6, 136],
+      "name": "Kirby: Right Back at Ya!",
+      "year": "2001",
+      "author": "Nintendo",
+      "seasons": [4, 1],
       "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00065",
-      "name": "Yu Yu Hakusho",
-      "seasons": [118],
-      "tags": ["Animation", "Action", "Supernatural"]
+      "name": "Pokémon",
+      "year": "1997",
+      "author": "Satoshi Tajiri",
+      "seasons": [24, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00066",
-      "name": "Rurouni Kenshin",
-      "seasons": [94],
-      "tags": ["Animation", "Action", "Historical Fiction"]
+      "name": "Digimon Adventure",
+      "year": "1999",
+      "author": "Akiyoshi Hongo",
+      "seasons": [9, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00067",
-      "name": "Dragon Ball",
-      "seasons": [153],
-      "tags": ["Animation", "Action", "Martial Arts"]
+      "name": "Yu-Gi-Oh!",
+      "year": "2000",
+      "author": "Kazuki Takahashi",
+      "seasons": [10, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00068",
-      "name": "Neon Genesis Evangelion: The End of Evangelion",
-      "seasons": [1],
-      "tags": ["Animation", "Mecha", "Psychological"]
+      "name": "Dragon Ball Z",
+      "year": "1989",
+      "author": "Akira Toriyama",
+      "seasons": [9, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00069",
-      "name": "The Evangelion Movie Village",
-      "seasons": [1],
-      "tags": ["Animation", "Mecha", "Psychological"]
+      "name": "Dragon Ball",
+      "year": "1986",
+      "author": "Akira Toriyama",
+      "seasons": [5, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00070",
-      "name": "Evangelion: Death True",
-      "seasons": [1],
-      "tags": ["Animation", "Mecha", "Psychological"]
+      "name": "Dragon Ball GT",
+      "year": "1996",
+      "author": "Akira Toriyama",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00071",
-      "name": "The Rebuild of Evangelion",
-      "seasons": [4],
-      "tags": ["Animation", "Mecha", "Psychological"]
+      "name": "Dragon Ball Super",
+      "year": "2015",
+      "author": "Akira Toriyama",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00072",
-      "name": "Patlabor: The Movie",
-      "seasons": [1],
-      "tags": ["Animation", "Mecha", "Sci-Fi"]
+      "name": "One Piece",
+      "year": "1999",
+      "author": "Eiichiro Oda",
+      "seasons": [22, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00073",
-      "name": "Ghost in the Shell",
-      "seasons": [1],
-      "tags": ["Animation", "Sci-Fi", "Cyberpunk"]
+      "name": "Naruto",
+      "year": "2002",
+      "author": "Masashi Kishimoto",
+      "seasons": [5, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00074",
-      "name": "Akira",
-      "seasons": [1],
-      "tags": ["Animation", "Sci-Fi", "Post-Apocalyptic"]
+      "name": "Naruto: Shippuden",
+      "year": "2007",
+      "author": "Masashi Kishimoto",
+      "seasons": [21, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00075",
-      "name": "Paprika",
-      "seasons": [1],
-      "tags": ["Animation", "Psychological", "Sci-Fi"]
+      "name": "Attack on Titan",
+      "year": "2013",
+      "author": "Hajime Isayama",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Action", "Drama"]
     },
     {
       "id": "00076",
-      "name": "Perfect Blue",
-      "seasons": [1],
-      "tags": ["Animation", "Psychological", "Thriller"]
+      "name": "My Hero Academia",
+      "year": "2016",
+      "author": "Kohei Horikoshi",
+      "seasons": [6, 1],
+      "tags": ["Animation", "Action", "Superhero"]
     },
     {
       "id": "00077",
-      "name": "Millennium Actress",
-      "seasons": [1],
-      "tags": ["Animation", "Drama", "Fantasy"]
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "year": "2019",
+      "author": "Koyoharu Gotouge",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Action", "Supernatural"]
     },
     {
       "id": "00078",
-      "name": "The Tale of Princess Kaguya",
-      "seasons": [1],
-      "tags": ["Animation", "Drama", "Fantasy"]
+      "name": "One Punch Man",
+      "year": "2015",
+      "author": "ONE",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Superhero"]
     },
     {
       "id": "00079",
-      "name": "When Marnie Was There",
-      "seasons": [1],
-      "tags": ["Animation", "Drama", "Slice of Life"]
+      "name": "Sword Art Online",
+      "year": "2012",
+      "author": "Reki Kawahara",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00080",
-      "name": "The Wind Rises",
-      "seasons": [1],
-      "tags": ["Animation", "Historical Fiction", "Drama"]
+      "name": "Fairy Tail",
+      "year": "2009",
+      "author": "Hiro Mashima",
+      "seasons": [9, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00081",
-      "name": "From Up on Poppy Hill",
-      "seasons": [1],
-      "tags": ["Animation", "Romance", "Slice of Life"]
+      "name": "Bleach",
+      "year": "2004",
+      "author": "Tite Kubo",
+      "seasons": [16, 1],
+      "tags": ["Animation", "Action", "Supernatural"]
     },
     {
       "id": "00082",
-      "name": "The Secret World of Arrietty",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Fullmetal Alchemist",
+      "year": "2003",
+      "author": "Hiromu Arakawa",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00083",
-      "name": "Ponyo",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "year": "2009",
+      "author": "Hiromu Arakawa",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00084",
-      "name": "Spirited Away",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Coming-of-age"]
+      "name": "Cowboy Bebop",
+      "year": "1998",
+      "author": "Shinichiro Watanabe",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00085",
-      "name": "Princess Mononoke",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "War"]
+      "name": "Trigun",
+      "year": "1998",
+      "author": "Yasuhiro Nightow",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00086",
-      "name": "Nausicaä of the Valley of the Wind",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Neon Genesis Evangelion",
+      "year": "1995",
+      "author": "Hideaki Anno",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Drama"]
     },
     {
       "id": "00087",
-      "name": "Laputa: Castle in the Sky",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Robotech",
+      "year": "1985",
+      "author": "Carl Macek",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00088",
-      "name": "Castle in the Sky",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Voltron: Defender of the Universe",
+      "year": "1984",
+      "author": "Peter Keefe",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00089",
-      "name": "Howl's Moving Castle",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Battle of the Planets",
+      "year": "1978",
+      "author": "Sandy Frank",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00090",
-      "name": "Kiki's Delivery Service",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Slice of Life"]
+      "name": "Star Blazers",
+      "year": "1979",
+      "author": "Leiji Matsumoto",
+      "seasons": [3, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00091",
-      "name": "My Neighbor Totoro",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Slice of Life"]
+      "name": "Speed Racer",
+      "year": "1967",
+      "author": "Tatsuo Yoshida",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Sports"]
     },
     {
       "id": "00092",
-      "name": "Pom Poko",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Environmentalism"]
+      "name": "Astro Boy",
+      "year": "1963",
+      "author": "Osamu Tezuka",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00093",
-      "name": "Porco Rosso",
-      "seasons": [1],
-      "tags": ["Animation", "Adventure", "War"]
+      "name": "Gigantor",
+      "year": "1964",
+      "author": "Mitsuteru Yokoyama",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00094",
-      "name": "Whisper of the Heart",
-      "seasons": [1],
-      "tags": ["Animation", "Romance", "Coming-of-age"]
+      "name": "Akira",
+      "year": "1988",
+      "author": "Katsuhiro Otomo",
+      "seasons": [1, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00095",
-      "name": "Only Yesterday",
-      "seasons": [1],
-      "tags": ["Animation", "Slice of Life", "Romance"]
+      "name": "Ghost in the Shell: Stand Alone Complex",
+      "year": "2002",
+      "author": "Masamune Shirow",
+      "seasons": [2, 1],
+      "tags": ["Animation", "Action", "Sci-Fi"]
     },
     {
       "id": "00096",
-      "name": "Ocean Waves",
-      "seasons": [1],
-      "tags": ["Animation", "Romance", "Slice of Life"]
+      "name": "Samurai Jack",
+      "year": "2001",
+      "author": "Genndy Tartakovsky",
+      "seasons": [5, 1],
+      "tags": ["Animation", "Action", "Adventure"]
     },
     {
       "id": "00097",
-      "name": "The Cat Returns",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "The Powerpuff Girls",
+      "year": "1998",
+      "author": "Craig McCracken",
+      "seasons": [6, 1],
+      "tags": ["Animation", "Action", "Comedy"]
     },
     {
       "id": "00098",
-      "name": "Tales from Earthsea",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Dexter's Laboratory",
+      "year": "1996",
+      "author": "Genndy Tartakovsky",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Comedy", "Sci-Fi"]
     },
     {
       "id": "00099",
-      "name": "Arrietty",
-      "seasons": [1],
-      "tags": ["Animation", "Fantasy", "Adventure"]
+      "name": "Johnny Bravo",
+      "year": "1997",
+      "author": "Van Partible",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Comedy"]
     },
     {
       "id": "00100",
-      "name": "From Up on Poppy Hill",
-      "seasons": [1],
-      "tags": ["Animation", "Romance", "Slice of Life"]
+      "name": "Courage the Cowardly Dog",
+      "year": "1999",
+      "author": "John R. Dilworth",
+      "seasons": [4, 1],
+      "tags": ["Animation", "Comedy", "Horror"]
     }
   ]
 }
