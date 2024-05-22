@@ -14,8 +14,8 @@ class MediaRepositorio:
             data = json.load(f)
 
         peliculas = []
-        for p in data['peliculas']:
-            pelicula = Pelicula(p['id'], p['titulo'], p['director'], p['anio'], p['generos'], p['duracion'])
+        for p in data['films']:
+            pelicula = Pelicula(p['id'], p['name'], p['director'], p['year'], p['tags'], p['duration'])
             peliculas.append(pelicula)
 
         return peliculas
@@ -27,7 +27,7 @@ class MediaRepositorio:
 
         series = []
         for s in data['series']:
-            serie = Serie(s['id'], s['titulo'], s['director'], s['anio'], s['generos'], s['temporadas'])
+            serie = Serie(s['id'], s['name'], s['director'], s['year'], s['tags'], s['seasons'])
             series.append(serie)
 
         return series
@@ -37,9 +37,9 @@ class MediaRepositorio:
         with open(cls.FICHERO_MEDIA, 'r') as f:
             data = json.load(f)
 
-        for p in data['peliculas']:
+        for p in data['films']:
             if p['id'] == id_pelicula:
-                return Pelicula(p['id'], p['titulo'], p['director'], p['anio'], p['generos'], p['duracion'])
+                return Pelicula(p['id'], p['title'], p['director'], p['year'], p['tags'], p['duration'])
 
         return None
 
@@ -50,6 +50,6 @@ class MediaRepositorio:
 
         for s in data['series']:
             if s['id'] == id_serie:
-                return Serie(s['id'], s['titulo'], s['director'], s['anio'], s['generos'], s['temporadas'])
+                return Serie(s['id'], s['name'], s['director'], s['year'], s['tags'], s['seasons'])
 
         return None
