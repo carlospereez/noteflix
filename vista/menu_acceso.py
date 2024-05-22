@@ -13,20 +13,29 @@ class MenuAcceso:
     mostrar_menu_acceso() -> None: Muestra el menú de acceso y gestiona las opciones seleccionadas por el usuario.
     """
 
-    usuario_logeado = None
     @classmethod
     def mostrar_menu_acceso(cls):
-        print("-------------")  #ajustar estilo
-        print("Bienvenido....")
+        cls.usuario_logueado = None
+        print("---------------------------")
+        print("Menú de acceso")
+        print("---------------------------")
         print("1. Dar usuario de alta")
         print("2. Acceder")
-        respuesta = input("Escoja una opción:")
-        if respuesta == "1":
-            cls.alta_usuario()
-        elif respuesta == "2":
-            cls.mostrar_menu_opciones()
+        print("3. Listado de usuarios")
+        print("4. Salir")
+        print("---------------------------")
+        respuesta = input("Escoja una opción")
+        if respuesta == 1:
+            pass
+        elif respuesta == 2:
+            pass
+        elif respuesta == 3:
+            pass
+        elif respuesta == 4:
+            print("saliendo...")
+            exit()
         else:
-            print("Opción inválida")
+            print("Opción válida")
             cls.mostrar_menu_acceso()
 
     @classmethod
