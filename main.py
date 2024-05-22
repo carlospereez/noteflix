@@ -1,2 +1,3 @@
+from vista import MenuAcceso
 if __name__ == '__main__':
-    print("Bienvenido a Noteflix!")
+    MenuAcceso.mostrar_menu_acceso()
