@@ -15,7 +15,7 @@ class MenuAcceso:
 
     @classmethod
     def mostrar_menu_acceso(cls):
-        cls.usuario_logueado = None
+        cls.usuario_logeado = None
         print("---------------------------")
         print("Menú de acceso")
         print("---------------------------")
@@ -24,23 +24,23 @@ class MenuAcceso:
         print("3. Listado de usuarios")
         print("4. Salir")
         print("---------------------------")
-        respuesta = input("Escoja una opción")
-        if respuesta == 1:
+        respuesta = input("Escoja una opción: ")
+        if respuesta == "1":
             cls._alta_usuario()
-        elif respuesta == 2:
+        elif respuesta == "2":
             cls._acceder()
-        elif respuesta == 3:
+        elif respuesta == "3":
             cls._listar_usuarios()
-        elif respuesta == 4:
+        elif respuesta == "4":
             print("saliendo...")
             exit()
         else:
-            print("Opción válida")
+            print("Opción inválida")
             cls.mostrar_menu_acceso()
 
     @classmethod
     def _alta_usuario(cls):
-        mail = input("Introduzca el mail a registrar:")
+        mail = input("Introduzca el mail a registrar: ")
         try:
             UsuarioServicio.alta_usuario(mail)
             print("Se ha registrado al usuario correctamente: " + mail)
