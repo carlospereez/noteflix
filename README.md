@@ -13,3 +13,11 @@ de visualización.
 - Visualización de películas y series.
 - Obtención de recomendaciones basadas en las visualizaciones del usuario.
 - Visualización de estadísticas de visualización del usuario.
+
+## Arquitectura del Proyecto
+
+Noteflix sigue una arquitectura de diseño
+modular, lo que significa que el código 
+está organizado en módulos o componentes 
+independientes que realizan tareas 
+específicas.
