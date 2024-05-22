@@ -82,13 +82,19 @@ class MenuOpciones:
 
         media = MediaServicio.obtener_pelicula_por_id(
             id_media) if tipo_media == "PELICULA" else MediaServicio.obtener_serie_por_id(id_media)
-        print("Se va a visualizar: " + media.titulo)
-        respuesta = input("Es correcto? (s/n):")
-        if respuesta == "s":
-            cls._simular_visualizacion(media)
-        else:
+        if media is None:
+            print("No se encontró el media con el id indicado")
             print("Volviendo al menú de opciones...")
             cls.mostrar_menu_opciones()
+        else:
+            print("Se va a visualizar: " + media.titulo)
+            respuesta = input("Es correcto? (s/n):")
+            if respuesta == "s":
+                cls._simular_visualizacion(media)
+            else:
+                print("Volviendo al menú de opciones...")
+                cls.mostrar_menu_opciones()
+
 
     @classmethod
     def _simular_visualizacion(cls):
