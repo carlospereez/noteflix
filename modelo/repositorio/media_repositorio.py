@@ -6,7 +6,7 @@ import json
 
 class MediaRepositorio:
 
-    FICHERO_MEDIA = 'resources/media.json'
+    FICHERO_MEDIA = 'resources/catalogo.json'
 
     @classmethod
     def obtener_peliculas(cls) -> List[Pelicula]:
