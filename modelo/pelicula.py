@@ -38,7 +38,3 @@ class Pelicula(Media):
         str: Una cadena que representa la película.
         """
         return f'{self.id}\t{self.titulo}\t{self.director}\t{self.anio}\t{self.duracion}\t{", ".join(self.generos)}'
-
-
-
-    pass
