@@ -29,3 +29,12 @@ class Serie(Media):
         super().__init__(id, titulo, director, anio, generos)
         self.temporadas = temporadas
 
+    def __str__(self):
+        """
+        Devuelve una representación en cadena de la serie preparada para
+        mostrarse tabulada en la terminal.
+
+        Devoluciones:
+        str: Una cadena que representa la serie.
+        """
+        return f'{self.id}\t{self.titulo}\t{self.director}\t{self.anio}\t{self.temporadas}\t{", ".join(self.generos)}'
