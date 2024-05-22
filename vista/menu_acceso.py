@@ -49,7 +49,17 @@ class MenuAcceso:
         finally:
             cls.mostrar_menu_acceso()
 
-
+    @classmethod
+    def _acceder(cls):
+        from .menu_opciones import MenuOpciones
+        usuario = input("Introduzca el mail de usuario: ")
+        try:
+            MenuOpciones.usuario_logeado = UsuarioServicio.obtener_usuario(usuario)
+            print("Bienvenido " + MenuOpciones.usuario_logeado.correo_electronico)
+        except:  # aclarar tipos de errores...
+            print("El usuario no existe")
+            cls.mostrar_menu_acceso()
+        MenuOpciones.mostrar_menu_opciones()
 
     @classmethod
     def _listar_usuarios(cls):
