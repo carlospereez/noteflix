@@ -15,7 +15,7 @@ class MediaRepositorio:
 
         peliculas = []
         for p in data['films']:
-            pelicula = Pelicula(p['id'], p['name'], p['director'], p['year'], p['tags'], p['duration'])
+            pelicula = Pelicula(p['id'], p['title'], p['director'], p['year'], p['tags'], p['duration'])
             peliculas.append(pelicula)
 
         return peliculas
@@ -27,7 +27,7 @@ class MediaRepositorio:
 
         series = []
         for s in data['series']:
-            serie = Serie(s['id'], s['name'], s['director'], s['year'], s['tags'], s['seasons'])
+            serie = Serie(s['id'], s['title'], s['director'], s['year'], s['tags'], s['seasons'])
             series.append(serie)
 
         return series
@@ -50,6 +50,6 @@ class MediaRepositorio:
 
         for s in data['series']:
             if s['id'] == id_serie:
-                return Serie(s['id'], s['name'], s['director'], s['year'], s['tags'], s['seasons'])
+                return Serie(s['id'], s['title'], s['director'], s['year'], s['tags'], s['seasons'])
 
         return None

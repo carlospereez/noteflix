@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 class EstadisticasServicio:
     @classmethod
-    def obtener_estadisticas_usuarios(cls, usuario: Usuario)-> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, int], Dict[str, int]]:
+    def obtener_estadisticas_usuarios(cls, usuario: Usuario) -> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, int], Dict[str, int]]:
         """
         Obtiene las estadísticas de los géneros de las películas y series vistas por un usuario.
 
@@ -85,7 +85,7 @@ class EstadisticasServicio:
         None
         """
         # Obtiene las estadísticas de géneros de películas y series
-        generos_peliculas_df, generos_series_df, generos_peliculas, generos_series = cls.obtener_estadisticas(usuario)
+        generos_peliculas_df, generos_series_df, generos_peliculas, generos_series = cls.obtener_estadisticas_usuarios(usuario)
 
         # Listas de claves y valores de géneros de películas
         claves_peliculas: List[str] = list(generos_peliculas.keys())
