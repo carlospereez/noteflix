@@ -42,3 +42,35 @@ La aplicación se divide en varios módulos principales:
 
 
 Cada uno de estos módulos se implementa en su propio paquete de Python, lo que facilita la organización y localización del código.
+
+## Cómo ejecutar el proyecto
+
+Para ejecutar este proyecto, siga los siguientes pasos:
+
+1. Asegúrese de tener Python instalado en su sistema. Si no lo tiene, puede descargarlo desde [aquí](https://www.python.org/downloads/).
+
+2. Clone el repositorio en su sistema local utilizando el siguiente comando:
+
+```bash
+git clone https://github.com/noteflix.git
+```
+
+3. Navegue hasta el directorio del proyecto:
+
+```bash
+cd noteflix
+```
+
+4. Instale las dependencias necesarias:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Ejecute el script principal para iniciar la aplicación:
+
+```bash
+python main.py
+```
+
+Por favor, siga las instrucciones en pantalla para interactuar con la aplicación.
